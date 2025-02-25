@@ -1,0 +1,3480 @@
+{
+    "countries": [
+      {
+        "country": "Spain",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "1.4 trillion USD",
+          "GDP per Capita": "30,000 USD",
+          "Inflation": "1.5%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Pharmaceuticals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Food", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "8.08",
+          "Political Parties": ["PSOE", "PP", "VOX", "Podemos"],
+          "Ideological Spectrum": ["Left", "Center-Right", "Far-Right", "Left"]
+        },
+        "population": {
+          "Population Density": "93 people per sq km",
+          "Urban/Rural Distribution": "80% Urban, 20% Rural",
+          "HDI": "0.904",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["France", "Germany", "Italy"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "United States of America",
+        "continent": "North America",
+        "economy": {
+          "GDP": "21.4 trillion USD",
+          "GDP per Capita": "65,000 USD",
+          "Inflation": "2.3%",
+          "Currency": "US Dollar",
+          "Major Imports": ["Electronics", "Machinery", "Vehicles"],
+          "Major Exports": [
+            {"name": "Aircraft", "percentage": "12%"},
+            {"name": "Machinery", "percentage": "10%"},
+            {"name": "Electronics", "percentage": "8%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Presidential Constitutional Republic",
+          "Democracy Index": "7.96",
+          "Political Parties": ["Democratic", "Republican"],
+          "Ideological Spectrum": ["Left", "Right"]
+        },
+        "population": {
+          "Population Density": "36 people per sq km",
+          "Urban/Rural Distribution": "82% Urban, 18% Rural",
+          "HDI": "0.926",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Canada", "UK", "Japan"],
+          "International Organizations": ["UN", "NATO", "WTO"],
+          "Rivals": ["China", "Russia"]
+        }
+      },
+      {
+        "country": "China",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "14.3 trillion USD",
+          "GDP per Capita": "10,000 USD",
+          "Inflation": "2.9%",
+          "Currency": "Renminbi",
+          "Major Imports": ["Crude Oil", "Iron Ore", "Machinery"],
+          "Major Exports": [
+            {"name": "Electronics", "percentage": "30%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Textiles", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Single-Party Socialist Republic",
+          "Democracy Index": "2.26",
+          "Political Parties": ["Communist Party of China"],
+          "Ideological Spectrum": ["Far-Left"]
+        },
+        "population": {
+          "Population Density": "153 people per sq km",
+          "Urban/Rural Distribution": "60% Urban, 40% Rural",
+          "HDI": "0.758",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "Pakistan", "North Korea"],
+          "International Organizations": ["UN", "BRICS", "SCO"],
+          "Rivals": ["United States", "India"]
+        }
+      },
+      {
+        "country": "Germany",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "3.8 trillion USD",
+          "GDP per Capita": "46,000 USD",
+          "Inflation": "1.4%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Vehicles", "percentage": "25%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Chemicals", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Republic",
+          "Democracy Index": "8.68",
+          "Political Parties": ["CDU", "SPD", "AfD", "FDP"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left", "Far-Right", "Liberal"]
+        },
+        "population": {
+          "Population Density": "233 people per sq km",
+          "Urban/Rural Distribution": "77% Urban, 23% Rural",
+          "HDI": "0.947",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["France", "Netherlands", "Italy"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "India",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "2.9 trillion USD",
+          "GDP per Capita": "2,100 USD",
+          "Inflation": "4.8%",
+          "Currency": "Indian Rupee",
+          "Major Imports": ["Crude Oil", "Gold", "Electronics"],
+          "Major Exports": [
+            {"name": "Petroleum", "percentage": "15%"},
+            {"name": "Gems", "percentage": "10%"},
+            {"name": "Pharma", "percentage": "8%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Republic",
+          "Democracy Index": "6.90",
+          "Political Parties": ["BJP", "INC"],
+          "Ideological Spectrum": ["Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "464 people per sq km",
+          "Urban/Rural Distribution": "34% Urban, 66% Rural",
+          "HDI": "0.645",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "United States", "Japan"],
+          "International Organizations": ["UN", "BRICS", "SCO"],
+          "Rivals": ["Pakistan", "China"]
+        }
+      },
+      {
+        "country": "Brazil",
+        "continent": "South America",
+        "economy": {
+          "GDP": "2.1 trillion USD",
+          "GDP per Capita": "9,000 USD",
+          "Inflation": "3.7%",
+          "Currency": "Brazilian Real",
+          "Major Imports": ["Machinery", "Electronics", "Chemicals"],
+          "Major Exports": [
+            {"name": "Soybeans", "percentage": "20%"},
+            {"name": "Iron Ore", "percentage": "15%"},
+            {"name": "Oil", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Presidential Republic",
+          "Democracy Index": "6.86",
+          "Political Parties": ["PT", "PSDB", "MDB"],
+          "Ideological Spectrum": ["Left", "Center-Right", "Center"]
+        },
+        "population": {
+          "Population Density": "25 people per sq km",
+          "Urban/Rural Distribution": "87% Urban, 13% Rural",
+          "HDI": "0.765",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Argentina", "China", "United States"],
+          "International Organizations": ["UN", "BRICS", "MERCOSUR"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Israel",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "520 billion USD",
+          "GDP per Capita": "49,500 USD",
+          "Inflation": "2.8%",
+          "Currency": "Israeli New Shekel",
+          "Major Imports": ["Raw Materials", "Military Equipment", "Consumer Goods"],
+          "Major Exports": [
+            {"name": "High-Tech Products", "percentage": "45%"},
+            {"name": "Cut Diamonds", "percentage": "15%"},
+            {"name": "Pharmaceuticals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Democracy",
+          "Democracy Index": "7.86",
+          "Political Parties": ["Likud", "Yesh Atid", "National Unity"],
+          "Ideological Spectrum": ["Right", "Center", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "400 people per sq km",
+          "Urban/Rural Distribution": "92% Urban, 8% Rural",
+          "HDI": "0.919",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Germany", "India"],
+          "International Organizations": ["UN", "OECD", "WHO"],
+          "Rivals": ["Iran", "Syria", "Various non-state actors"]
+        }
+      },
+      {
+        "country": "Russia",
+        "continent": "Europe/Asia",
+        "economy": {
+          "GDP": "1.7 trillion USD",
+          "GDP per Capita": "11,000 USD",
+          "Inflation": "3.4%",
+          "Currency": "Russian Ruble",
+          "Major Imports": ["Machinery", "Vehicles", "Pharmaceuticals"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "30%"},
+            {"name": "Natural Gas", "percentage": "20%"},
+            {"name": "Metals", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Semi-Presidential Republic",
+          "Democracy Index": "3.31",
+          "Political Parties": ["United Russia", "CPRF", "LDPR"],
+          "Ideological Spectrum": ["Right", "Left", "Far-Right"]
+        },
+        "population": {
+          "Population Density": "9 people per sq km",
+          "Urban/Rural Distribution": "74% Urban, 26% Rural",
+          "HDI": "0.824",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "India", "Belarus"],
+          "International Organizations": ["UN", "BRICS", "SCO"],
+          "Rivals": ["United States", "NATO"]
+        }
+      },
+      {
+        "country": "Japan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "5.1 trillion USD",
+          "GDP per Capita": "40,000 USD",
+          "Inflation": "0.5%",
+          "Currency": "Japanese Yen",
+          "Major Imports": ["Petroleum", "Natural Gas", "Clothing"],
+          "Major Exports": [
+            {"name": "Vehicles", "percentage": "25%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Electronics", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Unitary Parliamentary Constitutional Monarchy",
+          "Democracy Index": "7.99",
+          "Political Parties": ["LDP", "CDP", "Komeito"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left", "Center"]
+        },
+        "population": {
+          "Population Density": "347 people per sq km",
+          "Urban/Rural Distribution": "91% Urban, 9% Rural",
+          "HDI": "0.915",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "South Korea", "Australia"],
+          "International Organizations": ["UN", "G7", "APEC"],
+          "Rivals": ["China", "North Korea"]
+        }
+      },
+      {
+        "country": "Australia",
+        "continent": "Oceania",
+        "economy": {
+          "GDP": "1.4 trillion USD",
+          "GDP per Capita": "55,000 USD",
+          "Inflation": "1.8%",
+          "Currency": "Australian Dollar",
+          "Major Imports": ["Machinery", "Vehicles", "Electronics"],
+          "Major Exports": [
+            {"name": "Iron Ore", "percentage": "30%"},
+            {"name": "Coal", "percentage": "20%"},
+            {"name": "Natural Gas", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Constitutional Monarchy",
+          "Democracy Index": "9.09",
+          "Political Parties": ["Liberal", "Labor", "Greens"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left", "Left"]
+        },
+        "population": {
+          "Population Density": "3 people per sq km",
+          "Urban/Rural Distribution": "86% Urban, 14% Rural",
+          "HDI": "0.944",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "UK", "Japan"],
+          "International Organizations": ["UN", "G20", "APEC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Canada",
+        "continent": "North America",
+        "economy": {
+          "GDP": "1.7 trillion USD",
+          "GDP per Capita": "46,000 USD",
+          "Inflation": "2.0%",
+          "Currency": "Canadian Dollar",
+          "Major Imports": ["Vehicles", "Machinery", "Electronics"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Machinery", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Constitutional Monarchy",
+          "Democracy Index": "9.22",
+          "Political Parties": ["Liberal", "Conservative", "NDP"],
+          "Ideological Spectrum": ["Center-Left", "Right", "Left"]
+        },
+        "population": {
+          "Population Density": "4 people per sq km",
+          "Urban/Rural Distribution": "81% Urban, 19% Rural",
+          "HDI": "0.929",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "UK", "France"],
+          "International Organizations": ["UN", "NATO", "G7"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Burundi",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "3.1 billion USD",
+          "GDP per Capita": "270 USD",
+          "Inflation": "7.5%",
+          "Currency": "Burundian Franc",
+          "Major Imports": ["Food", "Petroleum Products", "Consumer Goods"],
+          "Major Exports": [
+            {"name": "Coffee", "percentage": "30%"},
+            {"name": "Tea", "percentage": "20%"},
+            {"name": "Sugar", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "2.37",
+          "Political Parties": ["CNDD-FDD", "UPRONA"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "435 people per sq km",
+          "Urban/Rural Distribution": "13% Urban, 87% Rural",
+          "HDI": "0.433",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["Tanzania", "Rwanda", "Uganda"],
+          "International Organizations": ["UN", "AU", "EAC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Mexico",
+        "continent": "North America",
+        "economy": {
+          "GDP": "1.2 trillion USD",
+          "GDP per Capita": "9,800 USD",
+          "Inflation": "3.2%",
+          "Currency": "Mexican Peso",
+          "Major Imports": ["Machinery", "Electrical Equipment", "Vehicles"],
+          "Major Exports": [
+            {"name": "Vehicles", "percentage": "25%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Mineral Fuels", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Presidential Republic",
+          "Democracy Index": "6.09",
+          "Political Parties": ["MORENA", "PAN", "PRI"],
+          "Ideological Spectrum": ["Left", "Center-Right", "Center"]
+        },
+        "population": {
+          "Population Density": "66 people per sq km",
+          "Urban/Rural Distribution": "80% Urban, 20% Rural",
+          "HDI": "0.779",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Canada", "Brazil"],
+          "International Organizations": ["UN", "OECD", "NAFTA"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "South Africa",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "350 billion USD",
+          "GDP per Capita": "6,100 USD",
+          "Inflation": "4.5%",
+          "Currency": "South African Rand",
+          "Major Imports": ["Machinery", "Chemicals", "Petroleum"],
+          "Major Exports": [
+            {"name": "Mineral Products", "percentage": "25%"},
+            {"name": "Precious Metals", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.24",
+          "Political Parties": ["ANC", "DA", "EFF"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Left"]
+        },
+        "population": {
+          "Population Density": "48 people per sq km",
+          "Urban/Rural Distribution": "67% Urban, 33% Rural",
+          "HDI": "0.705",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "India", "Russia"],
+          "International Organizations": ["UN", "BRICS", "AU"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Saudi Arabia",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "700 billion USD",
+          "GDP per Capita": "20,000 USD",
+          "Inflation": "2.5%",
+          "Currency": "Saudi Riyal",
+          "Major Imports": ["Machinery", "Vehicles", "Pharmaceuticals"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "70%"},
+            {"name": "Petrochemicals", "percentage": "15%"},
+            {"name": "Plastics", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Absolute Monarchy",
+          "Democracy Index": "1.93",
+          "Political Parties": ["None"],
+          "Ideological Spectrum": ["Conservative"]
+        },
+        "population": {
+          "Population Density": "16 people per sq km",
+          "Urban/Rural Distribution": "83% Urban, 17% Rural",
+          "HDI": "0.854",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "UAE", "Egypt"],
+          "International Organizations": ["UN", "OPEC", "GCC"],
+          "Rivals": ["Iran"]
+        }
+      },
+      {
+        "country": "Argentina",
+        "continent": "South America",
+        "economy": {
+          "GDP": "450 billion USD",
+          "GDP per Capita": "10,000 USD",
+          "Inflation": "25.7%",
+          "Currency": "Argentine Peso",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Soybeans", "percentage": "20%"},
+            {"name": "Corn", "percentage": "15%"},
+            {"name": "Vehicles", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Presidential Republic",
+          "Democracy Index": "6.96",
+          "Political Parties": ["PJ", "UCR", "PRO"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "16 people per sq km",
+          "Urban/Rural Distribution": "92% Urban, 8% Rural",
+          "HDI": "0.845",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Brazil", "Chile", "United States"],
+          "International Organizations": ["UN", "MERCOSUR", "G20"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Norway",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "400 billion USD",
+          "GDP per Capita": "75,000 USD",
+          "Inflation": "1.8%",
+          "Currency": "Norwegian Krone",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "30%"},
+            {"name": "Natural Gas", "percentage": "20%"},
+            {"name": "Fish", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "9.87",
+          "Political Parties": ["Labour", "Conservative", "Progress"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "15 people per sq km",
+          "Urban/Rural Distribution": "83% Urban, 17% Rural",
+          "HDI": "0.957",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Sweden", "Denmark", "United States"],
+          "International Organizations": ["UN", "NATO", "EFTA"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Italy",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "2.0 trillion USD",
+          "GDP per Capita": "33,000 USD",
+          "Inflation": "1.2%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Pharmaceuticals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Food", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.74",
+          "Political Parties": ["PD", "Lega", "M5S"],
+          "Ideological Spectrum": ["Center-Left", "Right", "Populist"]
+        },
+        "population": {
+          "Population Density": "206 people per sq km",
+          "Urban/Rural Distribution": "69% Urban, 31% Rural",
+          "HDI": "0.892",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["France", "Germany", "Spain"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "United Kingdom",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "2.8 trillion USD",
+          "GDP per Capita": "42,000 USD",
+          "Inflation": "1.8%",
+          "Currency": "Pound Sterling",
+          "Major Imports": ["Machinery", "Vehicles", "Pharmaceuticals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Pharmaceuticals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "8.52",
+          "Political Parties": ["Conservative", "Labour", "Liberal Democrats"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left", "Center"]
+        },
+        "population": {
+          "Population Density": "275 people per sq km",
+          "Urban/Rural Distribution": "83% Urban, 17% Rural",
+          "HDI": "0.922",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "France", "Germany"],
+          "International Organizations": ["UN", "NATO", "G7"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "France",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "2.7 trillion USD",
+          "GDP per Capita": "41,000 USD",
+          "Inflation": "1.5%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Pharmaceuticals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Aerospace", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic",
+          "Democracy Index": "8.12",
+          "Political Parties": ["LREM", "LR", "PS"],
+          "Ideological Spectrum": ["Center", "Right", "Left"]
+        },
+        "population": {
+          "Population Density": "119 people per sq km",
+          "Urban/Rural Distribution": "80% Urban, 20% Rural",
+          "HDI": "0.901",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "Italy", "Spain"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "South Korea",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "1.6 trillion USD",
+          "GDP per Capita": "31,000 USD",
+          "Inflation": "1.0%",
+          "Currency": "South Korean Won",
+          "Major Imports": ["Machinery", "Electronics", "Oil"],
+          "Major Exports": [
+            {"name": "Electronics", "percentage": "30%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "8.00",
+          "Political Parties": ["DPK", "PPP"],
+          "Ideological Spectrum": ["Center-Left", "Right"]
+        },
+        "population": {
+          "Population Density": "527 people per sq km",
+          "Urban/Rural Distribution": "82% Urban, 18% Rural",
+          "HDI": "0.916",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Japan", "Australia"],
+          "International Organizations": ["UN", "OECD", "APEC"],
+          "Rivals": ["North Korea"]
+        }
+      },
+      {
+        "country": "Turkey",
+        "continent": "Asia/Europe",
+        "economy": {
+          "GDP": "750 billion USD",
+          "GDP per Capita": "9,000 USD",
+          "Inflation": "11.8%",
+          "Currency": "Turkish Lira",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Vehicles", "percentage": "20%"},
+            {"name": "Machinery", "percentage": "15%"},
+            {"name": "Textiles", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "4.09",
+          "Political Parties": ["AKP", "CHP", "HDP"],
+          "Ideological Spectrum": ["Right", "Center-Left", "Left"]
+        },
+        "population": {
+          "Population Density": "105 people per sq km",
+          "Urban/Rural Distribution": "75% Urban, 25% Rural",
+          "HDI": "0.820",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Azerbaijan", "Qatar", "Pakistan"],
+          "International Organizations": ["UN", "NATO", "OECD"],
+          "Rivals": ["Greece"]
+        }
+      },
+      {
+        "country": "Netherlands",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "900 billion USD",
+          "GDP per Capita": "52,000 USD",
+          "Inflation": "1.3%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Chemicals", "percentage": "15%"},
+            {"name": "Food", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "8.89",
+          "Political Parties": ["VVD", "PvdA", "PVV"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left", "Right"]
+        },
+        "population": {
+          "Population Density": "508 people per sq km",
+          "Urban/Rural Distribution": "92% Urban, 8% Rural",
+          "HDI": "0.944",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "Belgium", "France"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Sweden",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "550 billion USD",
+          "GDP per Capita": "53,000 USD",
+          "Inflation": "1.7%",
+          "Currency": "Swedish Krona",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Paper", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "9.39",
+          "Political Parties": ["SAP", "Moderates", "Sweden Democrats"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "25 people per sq km",
+          "Urban/Rural Distribution": "87% Urban, 13% Rural",
+          "HDI": "0.945",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Norway", "Denmark", "Germany"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Switzerland",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "700 billion USD",
+          "GDP per Capita": "82,000 USD",
+          "Inflation": "0.6%",
+          "Currency": "Swiss Franc",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Chemicals", "percentage": "20%"},
+            {"name": "Machinery", "percentage": "15%"},
+            {"name": "Pharmaceuticals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Directorial Republic",
+          "Democracy Index": "9.03",
+          "Political Parties": ["SVP", "SP", "FDP"],
+          "Ideological Spectrum": ["Right", "Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "215 people per sq km",
+          "Urban/Rural Distribution": "74% Urban, 26% Rural",
+          "HDI": "0.955",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "France", "Italy"],
+          "International Organizations": ["UN", "EFTA", "OECD"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "New Zealand",
+        "continent": "Oceania",
+        "economy": {
+          "GDP": "210 billion USD",
+          "GDP per Capita": "42,000 USD",
+          "Inflation": "1.5%",
+          "Currency": "New Zealand Dollar",
+          "Major Imports": ["Machinery", "Vehicles", "Electronics"],
+          "Major Exports": [
+            {"name": "Dairy", "percentage": "20%"},
+            {"name": "Meat", "percentage": "15%"},
+            {"name": "Wood", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "9.26",
+          "Political Parties": ["Labour", "National", "Green"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Left"]
+        },
+        "population": {
+          "Population Density": "18 people per sq km",
+          "Urban/Rural Distribution": "86% Urban, 14% Rural",
+          "HDI": "0.921",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Australia", "United States", "UK"],
+          "International Organizations": ["UN", "OECD", "APEC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Singapore",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "370 billion USD",
+          "GDP per Capita": "65,000 USD",
+          "Inflation": "0.8%",
+          "Currency": "Singapore Dollar",
+          "Major Imports": ["Machinery", "Electronics", "Chemicals"],
+          "Major Exports": [
+            {"name": "Electronics", "percentage": "30%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.02",
+          "Political Parties": ["PAP", "WP"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "8,358 people per sq km",
+          "Urban/Rural Distribution": "100% Urban",
+          "HDI": "0.935",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Malaysia", "United States", "China"],
+          "International Organizations": ["UN", "ASEAN", "APEC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Indonesia",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "1.1 trillion USD",
+          "GDP per Capita": "4,000 USD",
+          "Inflation": "3.2%",
+          "Currency": "Indonesian Rupiah",
+          "Major Imports": ["Machinery", "Chemicals", "Fuels"],
+          "Major Exports": [
+            {"name": "Palm Oil", "percentage": "15%"},
+            {"name": "Coal", "percentage": "10%"},
+            {"name": "Textiles", "percentage": "8%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "6.48",
+          "Political Parties": ["PDI-P", "Golkar", "Gerindra"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "151 people per sq km",
+          "Urban/Rural Distribution": "55% Urban, 45% Rural",
+          "HDI": "0.707",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Malaysia", "Singapore", "Australia"],
+          "International Organizations": ["UN", "ASEAN", "G20"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Nigeria",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "450 billion USD",
+          "GDP per Capita": "2,200 USD",
+          "Inflation": "11.4%",
+          "Currency": "Nigerian Naira",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "90%"},
+            {"name": "Natural Gas", "percentage": "5%"},
+            {"name": "Cocoa", "percentage": "2%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Presidential Republic",
+          "Democracy Index": "4.44",
+          "Political Parties": ["APC", "PDP"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "226 people per sq km",
+          "Urban/Rural Distribution": "52% Urban, 48% Rural",
+          "HDI": "0.534",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "China", "South Africa"],
+          "International Organizations": ["UN", "AU", "ECOWAS"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Egypt",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "300 billion USD",
+          "GDP per Capita": "3,000 USD",
+          "Inflation": "9.4%",
+          "Currency": "Egyptian Pound",
+          "Major Imports": ["Machinery", "Chemicals", "Fuels"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "40%"},
+            {"name": "Textiles", "percentage": "15%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic",
+          "Democracy Index": "3.31",
+          "Political Parties": ["Future of the Nation", "Free Egyptians"],
+          "Ideological Spectrum": ["Center-Right", "Center"]
+        },
+        "population": {
+          "Population Density": "103 people per sq km",
+          "Urban/Rural Distribution": "43% Urban, 57% Rural",
+          "HDI": "0.707",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Saudi Arabia", "United States", "UAE"],
+          "International Organizations": ["UN", "AU", "Arab League"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Thailand",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "500 billion USD",
+          "GDP per Capita": "7,200 USD",
+          "Inflation": "1.1%",
+          "Currency": "Thai Baht",
+          "Major Imports": ["Machinery", "Chemicals", "Fuels"],
+          "Major Exports": [
+            {"name": "Electronics", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Machinery", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Constitutional Monarchy",
+          "Democracy Index": "6.32",
+          "Political Parties": ["PPRP", "Pheu Thai"],
+          "Ideological Spectrum": ["Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "136 people per sq km",
+          "Urban/Rural Distribution": "51% Urban, 49% Rural",
+          "HDI": "0.765",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "United States", "Japan"],
+          "International Organizations": ["UN", "ASEAN", "APEC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Vietnam",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "340 billion USD",
+          "GDP per Capita": "3,500 USD",
+          "Inflation": "3.5%",
+          "Currency": "Vietnamese Dong",
+          "Major Imports": ["Machinery", "Electronics", "Fuels"],
+          "Major Exports": [
+            {"name": "Electronics", "percentage": "30%"},
+            {"name": "Textiles", "percentage": "20%"},
+            {"name": "Footwear", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Single-Party Socialist Republic",
+          "Democracy Index": "3.08",
+          "Political Parties": ["Communist Party of Vietnam"],
+          "Ideological Spectrum": ["Far-Left"]
+        },
+        "population": {
+          "Population Density": "308 people per sq km",
+          "Urban/Rural Distribution": "37% Urban, 63% Rural",
+          "HDI": "0.704",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "Russia", "Laos"],
+          "International Organizations": ["UN", "ASEAN", "APEC"],
+          "Rivals": ["United States"]
+        }
+      },
+      {
+        "country": "Philippines",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "370 billion USD",
+          "GDP per Capita": "3,400 USD",
+          "Inflation": "2.6%",
+          "Currency": "Philippine Peso",
+          "Major Imports": ["Machinery", "Electronics", "Fuels"],
+          "Major Exports": [
+            {"name": "Electronics", "percentage": "40%"},
+            {"name": "Machinery", "percentage": "15%"},
+            {"name": "Fruits", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "6.14",
+          "Political Parties": ["PDP-Laban", "Liberal Party"],
+          "Ideological Spectrum": ["Center-Left", "Center"]
+        },
+        "population": {
+          "Population Density": "368 people per sq km",
+          "Urban/Rural Distribution": "47% Urban, 53% Rural",
+          "HDI": "0.718",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Japan", "China"],
+          "International Organizations": ["UN", "ASEAN", "APEC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Pakistan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "280 billion USD",
+          "GDP per Capita": "1,400 USD",
+          "Inflation": "8.6%",
+          "Currency": "Pakistani Rupee",
+          "Major Imports": ["Machinery", "Chemicals", "Fuels"],
+          "Major Exports": [
+            {"name": "Textiles", "percentage": "60%"},
+            {"name": "Rice", "percentage": "10%"},
+            {"name": "Leather", "percentage": "5%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Republic",
+          "Democracy Index": "4.31",
+          "Political Parties": ["PTI", "PML-N", "PPP"],
+          "Ideological Spectrum": ["Center-Right", "Center", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "287 people per sq km",
+          "Urban/Rural Distribution": "36% Urban, 64% Rural",
+          "HDI": "0.557",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "Saudi Arabia", "Turkey"],
+          "International Organizations": ["UN", "OIC", "SAARC"],
+          "Rivals": ["India"]
+        }
+      },
+      {
+        "country": "Bangladesh",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "320 billion USD",
+          "GDP per Capita": "1,900 USD",
+          "Inflation": "5.5%",
+          "Currency": "Bangladeshi Taka",
+          "Major Imports": ["Machinery", "Chemicals", "Fuels"],
+          "Major Exports": [
+            {"name": "Textiles", "percentage": "80%"},
+            {"name": "Jute", "percentage": "5%"},
+            {"name": "Fish", "percentage": "3%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "5.88",
+          "Political Parties": ["Awami League", "BNP"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "1,265 people per sq km",
+          "Urban/Rural Distribution": "38% Urban, 62% Rural",
+          "HDI": "0.632",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["India", "China", "Japan"],
+          "International Organizations": ["UN", "SAARC", "OIC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Malaysia",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "365 billion USD",
+          "GDP per Capita": "11,000 USD",
+          "Inflation": "1.5%",
+          "Currency": "Malaysian Ringgit",
+          "Major Imports": ["Machinery", "Chemicals", "Fuels"],
+          "Major Exports": [
+            {"name": "Electronics", "percentage": "35%"},
+            {"name": "Palm Oil", "percentage": "10%"},
+            {"name": "LNG", "percentage": "8%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Constitutional Monarchy",
+          "Democracy Index": "7.16",
+          "Political Parties": ["UMNO", "PKR", "DAP"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left", "Left"]
+        },
+        "population": {
+          "Population Density": "99 people per sq km",
+          "Urban/Rural Distribution": "76% Urban, 24% Rural",
+          "HDI": "0.804",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "Singapore", "United States"],
+          "International Organizations": ["UN", "ASEAN", "APEC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Colombia",
+        "continent": "South America",
+        "economy": {
+          "GDP": "330 billion USD",
+          "GDP per Capita": "6,500 USD",
+          "Inflation": "3.8%",
+          "Currency": "Colombian Peso",
+          "Major Imports": ["Machinery", "Chemicals", "Fuels"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "40%"},
+            {"name": "Coffee", "percentage": "15%"},
+            {"name": "Flowers", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "6.42",
+          "Political Parties": ["CD", "Liberal Party", "Green Alliance"],
+          "Ideological Spectrum": ["Right", "Center-Left", "Center"]
+        },
+        "population": {
+          "Population Density": "44 people per sq km",
+          "Urban/Rural Distribution": "77% Urban, 23% Rural",
+          "HDI": "0.761",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Brazil", "Mexico"],
+          "International Organizations": ["UN", "OAS", "Pacific Alliance"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Chile",
+        "continent": "South America",
+        "economy": {
+          "GDP": "300 billion USD",
+          "GDP per Capita": "15,000 USD",
+          "Inflation": "2.5%",
+          "Currency": "Chilean Peso",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Copper", "percentage": "40%"},
+            {"name": "Fruit", "percentage": "10%"},
+            {"name": "Fish", "percentage": "8%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "7.84",
+          "Political Parties": ["PS", "RN", "UDI"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "25 people per sq km",
+          "Urban/Rural Distribution": "87% Urban, 13% Rural",
+          "HDI": "0.847",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Argentina", "Brazil", "United States"],
+          "International Organizations": ["UN", "OAS", "Pacific Alliance"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Peru",
+        "continent": "South America",
+        "economy": {
+          "GDP": "230 billion USD",
+          "GDP per Capita": "7,000 USD",
+          "Inflation": "2.0%",
+          "Currency": "Peruvian Sol",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Copper", "percentage": "30%"},
+            {"name": "Gold", "percentage": "15%"},
+            {"name": "Fish", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "6.47",
+          "Political Parties": ["Peru Libre", "Fuerza Popular"],
+          "Ideological Spectrum": ["Left", "Right"]
+        },
+        "population": {
+          "Population Density": "25 people per sq km",
+          "Urban/Rural Distribution": "79% Urban, 21% Rural",
+          "HDI": "0.777",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Chile", "Brazil", "United States"],
+          "International Organizations": ["UN", "OAS", "Pacific Alliance"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Venezuela",
+        "continent": "South America",
+        "economy": {
+          "GDP": "70 billion USD",
+          "GDP per Capita": "2,500 USD",
+          "Inflation": "2000%",
+          "Currency": "Venezuelan Bolivar",
+          "Major Imports": ["Food", "Machinery", "Chemicals"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "90%"},
+            {"name": "Gold", "percentage": "5%"},
+            {"name": "Aluminum", "percentage": "2%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Presidential Republic",
+          "Democracy Index": "2.88",
+          "Political Parties": ["PSUV", "MUD"],
+          "Ideological Spectrum": ["Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "32 people per sq km",
+          "Urban/Rural Distribution": "88% Urban, 12% Rural",
+          "HDI": "0.711",
+          "Healthcare Access": "Limited",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Cuba", "Russia", "China"],
+          "International Organizations": ["UN", "OAS", "ALBA"],
+          "Rivals": ["United States"]
+        }
+      },
+      {
+        "country": "Kenya",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "95 billion USD",
+          "GDP per Capita": "2,000 USD",
+          "Inflation": "5.4%",
+          "Currency": "Kenyan Shilling",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Tea", "percentage": "20%"},
+            {"name": "Coffee", "percentage": "10%"},
+            {"name": "Flowers", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "5.11",
+          "Political Parties": ["Jubilee", "ODM"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "94 people per sq km",
+          "Urban/Rural Distribution": "28% Urban, 72% Rural",
+          "HDI": "0.601",
+          "Healthcare Access": "Limited",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "China", "Uganda"],
+          "International Organizations": ["UN", "AU", "EAC"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Ethiopia",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "96 billion USD",
+          "GDP per Capita": "900 USD",
+          "Inflation": "20.6%",
+          "Currency": "Ethiopian Birr",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Coffee", "percentage": "30%"},
+            {"name": "Oilseeds", "percentage": "15%"},
+            {"name": "Flowers", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Republic",
+          "Democracy Index": "3.42",
+          "Political Parties": ["Prosperity Party"],
+          "Ideological Spectrum": ["Center-Left"]
+        },
+        "population": {
+          "Population Density": "115 people per sq km",
+          "Urban/Rural Distribution": "21% Urban, 79% Rural",
+          "HDI": "0.485",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "United States", "Sudan"],
+          "International Organizations": ["UN", "AU", "IGAD"],
+          "Rivals": ["Eritrea"]
+        }
+      },
+      {
+        "country": "Morocco",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "120 billion USD",
+          "GDP per Capita": "3,300 USD",
+          "Inflation": "1.4%",
+          "Currency": "Moroccan Dirham",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Phosphates", "percentage": "20%"},
+            {"name": "Textiles", "percentage": "15%"},
+            {"name": "Agricultural Products", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "5.04",
+          "Political Parties": ["PJD", "RNI"],
+          "Ideological Spectrum": ["Center-Right", "Center"]
+        },
+        "population": {
+          "Population Density": "83 people per sq km",
+          "Urban/Rural Distribution": "63% Urban, 37% Rural",
+          "HDI": "0.686",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["France", "United States", "Spain"],
+          "International Organizations": ["UN", "AU", "Arab League"],
+          "Rivals": ["Algeria"]
+        }
+      },
+      {
+        "country": "Ghana",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "70 billion USD",
+          "GDP per Capita": "2,200 USD",
+          "Inflation": "9.8%",
+          "Currency": "Ghanaian Cedi",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Gold", "percentage": "40%"},
+            {"name": "Cocoa", "percentage": "20%"},
+            {"name": "Oil", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "6.50",
+          "Political Parties": ["NPP", "NDC"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "137 people per sq km",
+          "Urban/Rural Distribution": "56% Urban, 44% Rural",
+          "HDI": "0.611",
+          "Healthcare Access": "Mixed",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "China", "Nigeria"],
+          "International Organizations": ["UN", "AU", "ECOWAS"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Ukraine",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "150 billion USD",
+          "GDP per Capita": "3,500 USD",
+          "Inflation": "7.9%",
+          "Currency": "Ukrainian Hryvnia",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Grains", "percentage": "20%"},
+            {"name": "Metals", "percentage": "15%"},
+            {"name": "Machinery", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic",
+          "Democracy Index": "5.81",
+          "Political Parties": ["Servant of the People", "Opposition Platform"],
+          "Ideological Spectrum": ["Center", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "75 people per sq km",
+          "Urban/Rural Distribution": "69% Urban, 31% Rural",
+          "HDI": "0.779",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "EU", "Canada"],
+          "International Organizations": ["UN", "OSCE", "Council of Europe"],
+          "Rivals": ["Russia"]
+        }
+      },
+      {
+        "country": "Poland",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "600 billion USD",
+          "GDP per Capita": "15,000 USD",
+          "Inflation": "2.3%",
+          "Currency": "Polish Zloty",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Food", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.85",
+          "Political Parties": ["PiS", "PO"],
+          "Ideological Spectrum": ["Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "123 people per sq km",
+          "Urban/Rural Distribution": "60% Urban, 40% Rural",
+          "HDI": "0.872",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "United States", "France"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["Russia"]
+        }
+      },
+      {
+        "country": "Portugal",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "250 billion USD",
+          "GDP per Capita": "24,000 USD",
+          "Inflation": "0.8%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Cork", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic",
+          "Democracy Index": "8.03",
+          "Political Parties": ["PS", "PSD"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "112 people per sq km",
+          "Urban/Rural Distribution": "66% Urban, 34% Rural",
+          "HDI": "0.864",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Spain", "France", "Germany"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Austria",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "450 billion USD",
+          "GDP per Capita": "50,000 USD",
+          "Inflation": "1.5%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Republic",
+          "Democracy Index": "8.29",
+          "Political Parties": ["ÖVP", "SPÖ", "FPÖ"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left", "Right"]
+        },
+        "population": {
+          "Population Density": "109 people per sq km",
+          "Urban/Rural Distribution": "58% Urban, 42% Rural",
+          "HDI": "0.922",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "Italy", "Switzerland"],
+          "International Organizations": ["EU", "UN", "OSCE"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Belgium",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "530 billion USD",
+          "GDP per Capita": "46,000 USD",
+          "Inflation": "1.4%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Chemicals", "percentage": "20%"},
+            {"name": "Machinery", "percentage": "15%"},
+            {"name": "Diamonds", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Constitutional Monarchy",
+          "Democracy Index": "7.64",
+          "Political Parties": ["N-VA", "PS", "MR"],
+          "Ideological Spectrum": ["Right", "Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "383 people per sq km",
+          "Urban/Rural Distribution": "98% Urban, 2% Rural",
+          "HDI": "0.919",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["France", "Netherlands", "Germany"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Denmark",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "350 billion USD",
+          "GDP per Capita": "60,000 USD",
+          "Inflation": "1.2%",
+          "Currency": "Danish Krone",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Pharmaceuticals", "percentage": "15%"},
+            {"name": "Food", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "9.22",
+          "Political Parties": ["Social Democrats", "Venstre", "Danish People's Party"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "137 people per sq km",
+          "Urban/Rural Distribution": "88% Urban, 12% Rural",
+          "HDI": "0.940",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "Sweden", "Norway"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Finland",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "270 billion USD",
+          "GDP per Capita": "49,000 USD",
+          "Inflation": "1.1%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Paper", "percentage": "15%"},
+            {"name": "Electronics", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "9.25",
+          "Political Parties": ["Social Democrats", "National Coalition Party", "Finns Party"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "18 people per sq km",
+          "Urban/Rural Distribution": "84% Urban, 16% Rural",
+          "HDI": "0.938",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Sweden", "Germany", "Norway"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Greece",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "210 billion USD",
+          "GDP per Capita": "20,000 USD",
+          "Inflation": "0.9%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Food", "percentage": "20%"},
+            {"name": "Petroleum Products", "percentage": "15%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.43",
+          "Political Parties": ["New Democracy", "SYRIZA", "KINAL"],
+          "Ideological Spectrum": ["Center-Right", "Left", "Center"]
+        },
+        "population": {
+          "Population Density": "81 people per sq km",
+          "Urban/Rural Distribution": "78% Urban, 22% Rural",
+          "HDI": "0.888",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "France", "Italy"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["Turkey"]
+        }
+      },
+      {
+        "country": "Hungary",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "160 billion USD",
+          "GDP per Capita": "16,000 USD",
+          "Inflation": "3.4%",
+          "Currency": "Hungarian Forint",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Food", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.63",
+          "Political Parties": ["Fidesz", "Jobbik", "MSZP"],
+          "Ideological Spectrum": ["Right", "Far-Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "107 people per sq km",
+          "Urban/Rural Distribution": "71% Urban, 29% Rural",
+          "HDI": "0.854",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "Austria", "Poland"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Ireland",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "400 billion USD",
+          "GDP per Capita": "80,000 USD",
+          "Inflation": "0.7%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Pharmaceuticals", "percentage": "30%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Food", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "9.13",
+          "Political Parties": ["Fianna Fáil", "Fine Gael", "Sinn Féin"],
+          "Ideological Spectrum": ["Center", "Center-Right", "Left"]
+        },
+        "population": {
+          "Population Density": "70 people per sq km",
+          "Urban/Rural Distribution": "63% Urban, 37% Rural",
+          "HDI": "0.955",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United Kingdom", "United States", "Germany"],
+          "International Organizations": ["EU", "UN", "OECD"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Luxembourg",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "70 billion USD",
+          "GDP per Capita": "110,000 USD",
+          "Inflation": "1.7%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Steel", "percentage": "20%"},
+            {"name": "Chemicals", "percentage": "15%"},
+            {"name": "Machinery", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Constitutional Monarchy",
+          "Democracy Index": "8.81",
+          "Political Parties": ["DP", "CSV", "LSAP"],
+          "Ideological Spectrum": ["Center-Right", "Center", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "242 people per sq km",
+          "Urban/Rural Distribution": "90% Urban, 10% Rural",
+          "HDI": "0.904",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "France", "Belgium"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Czech Republic",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "250 billion USD",
+          "GDP per Capita": "23,000 USD",
+          "Inflation": "2.8%",
+          "Currency": "Czech Koruna",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.69",
+          "Political Parties": ["ANO", "ODS", "Pirates"],
+          "Ideological Spectrum": ["Center-Right", "Right", "Center"]
+        },
+        "population": {
+          "Population Density": "136 people per sq km",
+          "Urban/Rural Distribution": "73% Urban, 27% Rural",
+          "HDI": "0.888",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "Poland", "Slovakia"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Slovakia",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "110 billion USD",
+          "GDP per Capita": "20,000 USD",
+          "Inflation": "2.3%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Chemicals", "Vehicles"],
+          "Major Exports": [
+            {"name": "Vehicles", "percentage": "30%"},
+            {"name": "Machinery", "percentage": "20%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.17",
+          "Political Parties": ["SMER-SD", "OLaNO", "SaS"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "113 people per sq km",
+          "Urban/Rural Distribution": "54% Urban, 46% Rural",
+          "HDI": "0.860",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Czech Republic", "Poland", "Germany"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Estonia",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "32 billion USD",
+          "GDP per Capita": "24,000 USD",
+          "Inflation": "4.5%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "18%"},
+            {"name": "Electronics", "percentage": "15%"},
+            {"name": "Wood Products", "percentage": "12%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "8.17",
+          "Political Parties": ["Reform Party", "Isamaa", "Center Party"],
+          "Ideological Spectrum": ["Center-Right", "Conservative", "Center"]
+        },
+        "population": {
+          "Population Density": "30 people per sq km",
+          "Urban/Rural Distribution": "69% Urban, 31% Rural",
+          "HDI": "0.883",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Finland", "Sweden", "Latvia"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Lithuania",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "60 billion USD",
+          "GDP per Capita": "21,000 USD",
+          "Inflation": "3.2%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Mineral Products", "Chemicals"],
+          "Major Exports": [
+            {"name": "Mineral Products", "percentage": "15%"},
+            {"name": "Machinery", "percentage": "14%"},
+            {"name": "Food Products", "percentage": "12%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.96",
+          "Political Parties": ["Homeland Union", "Liberal Movement", "Social Democratic Party"],
+          "Ideological Spectrum": ["Center-Right", "Liberal", "Left"]
+        },
+        "population": {
+          "Population Density": "46 people per sq km",
+          "Urban/Rural Distribution": "67% Urban, 33% Rural",
+          "HDI": "0.873",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Poland", "Latvia", "Germany"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Latvia",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "37 billion USD",
+          "GDP per Capita": "19,000 USD",
+          "Inflation": "3.8%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Wood Products", "percentage": "18%"},
+            {"name": "Machinery", "percentage": "15%"},
+            {"name": "Textiles", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.81",
+          "Political Parties": ["New Unity", "KPV LV", "National Alliance"],
+          "Ideological Spectrum": ["Center-Right", "Populist", "Conservative"]
+        },
+        "population": {
+          "Population Density": "35 people per sq km",
+          "Urban/Rural Distribution": "67% Urban, 33% Rural",
+          "HDI": "0.852",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Estonia", "Lithuania", "Sweden"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Belarus",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "65 billion USD",
+          "GDP per Capita": "6,800 USD",
+          "Inflation": "5.2%",
+          "Currency": "Belarusian Ruble",
+          "Major Imports": ["Oil", "Natural Gas", "Machinery"],
+          "Major Exports": [
+            {"name": "Petroleum Products", "percentage": "25%"},
+            {"name": "Machinery", "percentage": "15%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "3.11",
+          "Political Parties": ["Belaya Rus", "Communist Party", "United Civil Party"],
+          "Ideological Spectrum": ["Authoritarian", "Left", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "45 people per sq km",
+          "Urban/Rural Distribution": "77% Urban, 23% Rural",
+          "HDI": "0.817",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "Ukraine", "China"],
+          "International Organizations": ["UN", "CSTO", "EAEU"],
+          "Rivals": ["European Union (due to political tensions)"]
+        }
+      },
+      {
+        "country": "Romania",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "270 billion USD",
+          "GDP per Capita": "14,000 USD",
+          "Inflation": "4.1%",
+          "Currency": "Romanian Leu",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Vehicles", "percentage": "20%"},
+            {"name": "Machinery", "percentage": "15%"},
+            {"name": "Electronics", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.98",
+          "Political Parties": ["National Liberal Party", "Social Democratic Party", "Save Romania Union"],
+          "Ideological Spectrum": ["Center-Right", "Left", "Centrist"]
+        },
+        "population": {
+          "Population Density": "89 people per sq km",
+          "Urban/Rural Distribution": "54% Urban, 46% Rural",
+          "HDI": "0.817",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Hungary", "Germany", "United States"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Republic of Serbia",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "50 billion USD",
+          "GDP per Capita": "7,000 USD",
+          "Inflation": "3.0%",
+          "Currency": "Serbian Dinar",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Metals", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Foods", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "5.52",
+          "Political Parties": ["Serbian Progressive Party", "Socialist Party", "Democratic Party"],
+          "Ideological Spectrum": ["Center-Right", "Left", "Centrist"]
+        },
+        "population": {
+          "Population Density": "93 people per sq km",
+          "Urban/Rural Distribution": "56% Urban, 44% Rural",
+          "HDI": "0.790",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "Germany"],
+          "International Organizations": ["UN", "CEFTA"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "20 billion USD",
+          "GDP per Capita": "5,000 USD",
+          "Inflation": "2.0%",
+          "Currency": "Convertible Mark",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Metals", "percentage": "25%"},
+            {"name": "Furniture", "percentage": "15%"},
+            {"name": "Wood Products", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Republic",
+          "Democracy Index": "4.88",
+          "Political Parties": ["SDA", "HDZ", "SNSD"],
+          "Ideological Spectrum": ["Ethnic-Based", "Center-Right", "Centrist"]
+        },
+        "population": {
+          "Population Density": "67 people per sq km",
+          "Urban/Rural Distribution": "51% Urban, 49% Rural",
+          "HDI": "0.755",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Croatia", "Serbia", "Turkey"],
+          "International Organizations": ["UN", "CEFTA"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Croatia",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "65 billion USD",
+          "GDP per Capita": "15,000 USD",
+          "Inflation": "3.5%",
+          "Currency": "Croatian Kuna",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Chemicals", "percentage": "20%"},
+            {"name": "Foods", "percentage": "15%"},
+            {"name": "Metals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "7.52",
+          "Political Parties": ["HDZ", "SDP", "Most"],
+          "Ideological Spectrum": ["Center-Right", "Left", "Centrist"]
+        },
+        "population": {
+          "Population Density": "72 people per sq km",
+          "Urban/Rural Distribution": "58% Urban, 42% Rural",
+          "HDI": "0.840",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Germany", "Italy", "Bosnia and Herzegovina"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Slovenia",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "55 billion USD",
+          "GDP per Capita": "26,000 USD",
+          "Inflation": "3.8%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Machinery", "percentage": "25%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Chemicals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "8.05",
+          "Political Parties": ["SD", "MSZ", "LMGG"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Centrist"]
+        },
+        "population": {
+          "Population Density": "102 people per sq km",
+          "Urban/Rural Distribution": "50% Urban, 50% Rural",
+          "HDI": "0.901",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Austria", "Italy", "Croatia"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Montenegro",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "5 billion USD",
+          "GDP per Capita": "8,000 USD",
+          "Inflation": "2.5%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Aluminum", "percentage": "25%"},
+            {"name": "Foods", "percentage": "15%"},
+            {"name": "Metals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.23",
+          "Political Parties": ["DPS", "SNP", "Positive Montenegro"],
+          "Ideological Spectrum": ["Center-Right", "Left", "Centrist"]
+        },
+        "population": {
+          "Population Density": "46 people per sq km",
+          "Urban/Rural Distribution": "62% Urban, 38% Rural",
+          "HDI": "0.819",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Serbia", "Croatia", "Albania"],
+          "International Organizations": ["UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Albania",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "15 billion USD",
+          "GDP per Capita": "5,000 USD",
+          "Inflation": "2.0%",
+          "Currency": "Lek",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Energy", "percentage": "20%"},
+            {"name": "Metals", "percentage": "15%"},
+            {"name": "Foods", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "5.95",
+          "Political Parties": ["PS", "PD", "LSI"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Centrist"]
+        },
+        "population": {
+          "Population Density": "110 people per sq km",
+          "Urban/Rural Distribution": "58% Urban, 42% Rural",
+          "HDI": "0.758",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Italy", "United States", "Turkey"],
+          "International Organizations": ["UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Macedonia",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "13 billion USD",
+          "GDP per Capita": "6,000 USD",
+          "Inflation": "2.5%",
+          "Currency": "Denar",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Textiles", "percentage": "25%"},
+            {"name": "Metals", "percentage": "15%"},
+            {"name": "Foods", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.12",
+          "Political Parties": ["SDSM", "VMRO-DPMNE", "Besa Movement"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Centrist"]
+        },
+        "population": {
+          "Population Density": "82 people per sq km",
+          "Urban/Rural Distribution": "58% Urban, 42% Rural",
+          "HDI": "0.755",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Greece", "Serbia", "Albania"],
+          "International Organizations": ["UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Bulgaria",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "70 billion USD",
+          "GDP per Capita": "10,000 USD",
+          "Inflation": "4.0%",
+          "Currency": "Lev",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Metals", "percentage": "20%"},
+            {"name": "Vehicles", "percentage": "15%"},
+            {"name": "Foods", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.43",
+          "Political Parties": ["GERB", "Citizens for European Development of Bulgaria", "Movement for Rights and Freedoms"],
+          "Ideological Spectrum": ["Center-Right", "Centrist", "Ethnic-Based"]
+        },
+        "population": {
+          "Population Density": "65 people per sq km",
+          "Urban/Rural Distribution": "74% Urban, 26% Rural",
+          "HDI": "0.817",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Turkey", "Greece", "Romania"],
+          "International Organizations": ["EU", "UN", "NATO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Georgia",
+        "continent": "Eurasia",
+        "economy": {
+          "GDP": "18 billion USD",
+          "GDP per Capita": "4,500 USD",
+          "Inflation": "6.0%",
+          "Currency": "Lari",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Wine", "percentage": "20%"},
+            {"name": "Metals", "percentage": "15%"},
+            {"name": "Fertilizers", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "5.71",
+          "Political Parties": ["Georgian Dream", "United National Movement", "European Georgia"],
+          "Ideological Spectrum": ["Center-Right", "Centrist", "Liberal"]
+        },
+        "population": {
+          "Population Density": "65 people per sq km",
+          "Urban/Rural Distribution": "54% Urban, 46% Rural",
+          "HDI": "0.786",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Turkey", "Ukraine"],
+          "International Organizations": ["UN", "Council of Europe"],
+          "Rivals": ["Russia (due to territorial disputes)"]
+        }
+      },
+      {
+        "country": "Azerbaijan",
+        "continent": "Eurasia",
+        "economy": {
+          "GDP": "45 billion USD",
+          "GDP per Capita": "4,500 USD",
+          "Inflation": "3.5%",
+          "Currency": "Manat",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "50%"},
+            {"name": "Gas", "percentage": "20%"},
+            {"name": "Metals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "3.17",
+          "Political Parties": ["YAP", "Musavat", "Popular Front Party"],
+          "Ideological Spectrum": ["Authoritarian", "Centrist", "Nationalist"]
+        },
+        "population": {
+          "Population Density": "115 people per sq km",
+          "Urban/Rural Distribution": "55% Urban, 45% Rural",
+          "HDI": "0.764",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Turkey", "Israel", "Russia"],
+          "International Organizations": ["UN", "OSCE"],
+          "Rivals": ["Armenia (due to Nagorno-Karabakh conflict)"]
+        }
+      },
+      {
+        "country": "Armenia",
+        "continent": "Eurasia",
+        "economy": {
+          "GDP": "14 billion USD",
+          "GDP per Capita": "4,500 USD",
+          "Inflation": "4.0%",
+          "Currency": "Dram",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Metals", "percentage": "50%"},
+            {"name": "Foods", "percentage": "15%"},
+            {"name": "Clothing", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "5.37",
+          "Political Parties": ["Civil Contract", "Prosperous Armenia", "Bright Armenia"],
+          "Ideological Spectrum": ["Centrist", "Populist", "Liberal"]
+        },
+        "population": {
+          "Population Density": "101 people per sq km",
+          "Urban/Rural Distribution": "64% Urban, 36% Rural",
+          "HDI": "0.762",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "Iran", "Syria"],
+          "International Organizations": ["UN", "Council of Europe"],
+          "Rivals": ["Azerbaijan (due to Nagorno-Karabakh conflict)"]
+        }
+      },
+      {
+        "country": "Republic of Kosovo",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "8 billion USD",
+          "GDP per Capita": "4,000 USD",
+          "Inflation": "2.5%",
+          "Currency": "Euro",
+          "Major Imports": ["Machinery", "Vehicles", "Food Products"],
+          "Major Exports": [
+            {"name": "Metals", "percentage": "30%"},
+            {"name": "Minerals", "percentage": "20%"},
+            {"name": "Agricultural Products", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "4.50",
+          "Political Parties": ["PDK", "LDK", "Vetëvendosje"],
+          "Ideological Spectrum": ["Nationalist", "Centrist", "Populist"]
+        },
+        "population": {
+          "Population Density": "165 people per sq km",
+          "Urban/Rural Distribution": "43% Urban, 57% Rural",
+          "HDI": "0.703",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Albania", "Turkey"],
+          "International Organizations": ["UN (partial recognition)"],
+          "Rivals": ["Serbia (due to territorial disputes)"]
+        }
+      },
+      {
+        "country": "Moldova",
+        "continent": "Europe",
+        "economy": {
+          "GDP": "10 billion USD",
+          "GDP per Capita": "2,800 USD",
+          "Inflation": "5.0%",
+          "Currency": "Leu",
+          "Major Imports": ["Machinery", "Oil", "Food Products"],
+          "Major Exports": [
+            {"name": "Wine", "percentage": "20%"},
+            {"name": "Clothing", "percentage": "15%"},
+            {"name": "Agricultural Products", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "5.12",
+          "Political Parties": ["Pro-European Coalition", "Socialist Party", "Shor Party"],
+          "Ideological Spectrum": ["Pro-European", "Socialist", "Centrist"]
+        },
+        "population": {
+          "Population Density": "124 people per sq km",
+          "Urban/Rural Distribution": "45% Urban, 55% Rural",
+          "HDI": "0.725",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Romania", "Ukraine", "European Union"],
+          "International Organizations": ["UN", "OSCE"],
+          "Rivals": ["Transnistria (due to territorial disputes)"]
+        }
+      },
+      {
+        "country": "Kazakhstan",
+        "continent": "Eurasia",
+        "economy": {
+          "GDP": "180 billion USD",
+          "GDP per Capita": "9,500 USD",
+          "Inflation": "6.5%",
+          "Currency": "Tenge",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "50%"},
+            {"name": "Natural Gas", "percentage": "15%"},
+            {"name": "Metals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "3.25",
+          "Political Parties": ["Nur Otan", "Ak Zhol", "Communist People's Party"],
+          "Ideological Spectrum": ["Authoritarian", "Centrist", "Left"]
+        },
+        "population": {
+          "Population Density": "7 people per sq km",
+          "Urban/Rural Distribution": "58% Urban, 42% Rural",
+          "HDI": "0.816",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "Turkey"],
+          "International Organizations": ["UN", "EAEU", "CSTO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Uzbekistan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "70 billion USD",
+          "GDP per Capita": "2,000 USD",
+          "Inflation": "10.0%",
+          "Currency": "Som",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Gold", "percentage": "25%"},
+            {"name": "Natural Gas", "percentage": "20%"},
+            {"name": "Cotton", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "3.10",
+          "Political Parties": ["Liberal Democratic Party", "People's Democratic Party", "Adolat Social Democratic Party"],
+          "Ideological Spectrum": ["Authoritarian", "Centrist", "Conservative"]
+        },
+        "population": {
+          "Population Density": "74 people per sq km",
+          "Urban/Rural Distribution": "47% Urban, 53% Rural",
+          "HDI": "0.711",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "Turkey"],
+          "International Organizations": ["UN", "CIS"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Kyrgyzstan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "9 billion USD",
+          "GDP per Capita": "1,500 USD",
+          "Inflation": "5.0%",
+          "Currency": "Som",
+          "Major Imports": ["Machinery", "Vehicles", "Food Products"],
+          "Major Exports": [
+            {"name": "Gold", "percentage": "40%"},
+            {"name": "Hydroelectricity", "percentage": "20%"},
+            {"name": "Cattle", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "4.50",
+          "Political Parties": ["Mekenim Kyrgyzstan", "Respublika-Ata Jurt", "Bir Bol"],
+          "Ideological Spectrum": ["Centrist", "Populist", "Nationalist"]
+        },
+        "population": {
+          "Population Density": "34 people per sq km",
+          "Urban/Rural Distribution": "36% Urban, 64% Rural",
+          "HDI": "0.675",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "United States"],
+          "International Organizations": ["UN", "CIS", "EAEU"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Tajikistan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "8 billion USD",
+          "GDP per Capita": "800 USD",
+          "Inflation": "7.0%",
+          "Currency": "Somoni",
+          "Major Imports": ["Machinery", "Vehicles", "Food Products"],
+          "Major Exports": [
+            {"name": "Aluminum", "percentage": "30%"},
+            {"name": "Cotton", "percentage": "20%"},
+            {"name": "Gold", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "3.15",
+          "Political Parties": ["People's Democratic Party", "Socialist Party", "Islamic Renaissance Party"],
+          "Ideological Spectrum": ["Authoritarian", "Centrist", "Religious"]
+        },
+        "population": {
+          "Population Density": "59 people per sq km",
+          "Urban/Rural Distribution": "27% Urban, 73% Rural",
+          "HDI": "0.652",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "Iran"],
+          "International Organizations": ["UN", "CIS", "SCO"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Iran",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "500 billion USD",
+          "GDP per Capita": "6,000 USD",
+          "Inflation": "40.0%",
+          "Currency": "Rial",
+          "Major Imports": ["Machinery", "Chemicals", "Transportation Equipment"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "50%"},
+            {"name": "Natural Gas", "percentage": "15%"},
+            {"name": "Petroleum Products", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Islamic Republic",
+          "Democracy Index": "3.00",
+          "Political Parties": ["Principlists", "Reformists"],
+          "Ideological Spectrum": ["Theocratic", "Conservative", "Moderate"]
+        },
+        "population": {
+          "Population Density": "53 people per sq km",
+          "Urban/Rural Distribution": "75% Urban, 25% Rural",
+          "HDI": "0.796",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "Syria"],
+          "International Organizations": ["UN", "NAM"],
+          "Rivals": ["United States, Israel (due to political tensions)"]
+        }
+      },
+      {
+        "country": "Afghanistan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "20 billion USD",
+          "GDP per Capita": "500 USD",
+          "Inflation": "15.0%",
+          "Currency": "Afghani",
+          "Major Imports": ["Machinery", "Vehicles", "Chemicals"],
+          "Major Exports": [
+            {"name": "Opium", "percentage": "30%"},
+            {"name": "Carpets", "percentage": "20%"},
+            {"name": "Precious Metals", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Islamic Republic",
+          "Democracy Index": "3.00",
+          "Political Parties": ["National Islamic Movement", "Some Party"],
+          "Ideological Spectrum": ["Theocratic", "Authoritarian", "Moderate"]
+        },
+        "population": {
+          "Population Density": "60 people per sq km",
+          "Urban/Rural Distribution": "30% Urban, 70% Rural",
+          "HDI": "0.500",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["None"],
+          "International Organizations": ["UN"],
+          "Rivals": ["None"]
+        }
+      },
+      {
+        "country": "Mongolia",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "15.3 billion USD",
+          "GDP per Capita": "4,500 USD",
+          "Inflation": "6.2%",
+          "Currency": "Mongolian Tugrik",
+          "Major Imports": ["Machinery", "Fuel", "Consumer Goods"],
+          "Major Exports": [
+            {"name": "Minerals (Copper, Coal)", "percentage": "45%"},
+            {"name": "Livestock Products", "percentage": "25%"},
+            {"name": "Cashmere", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic",
+          "Democracy Index": "6.48",
+          "Political Parties": ["Mongolian People's Party", "Democratic Party"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "2 people per sq km",
+          "Urban/Rural Distribution": "68% Urban, 32% Rural",
+          "HDI": "0.737",
+          "Healthcare Access": "Limited Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "Japan"],
+          "International Organizations": ["UN", "SCO", "WTO"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Turkmenistan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "57.1 billion USD",
+          "GDP per Capita": "9,000 USD",
+          "Inflation": "10.0%",
+          "Currency": "Turkmenistan Manat",
+          "Major Imports": ["Machinery", "Chemicals", "Food"],
+          "Major Exports": [
+            {"name": "Natural Gas", "percentage": "65%"},
+            {"name": "Petroleum Products", "percentage": "15%"},
+            {"name": "Cotton", "percentage": "8%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic (Authoritarian)",
+          "Democracy Index": "1.66",
+          "Political Parties": ["Democratic Party of Turkmenistan"],
+          "Ideological Spectrum": ["Authoritarian"]
+        },
+        "population": {
+          "Population Density": "12 people per sq km",
+          "Urban/Rural Distribution": "53% Urban, 47% Rural",
+          "HDI": "0.715",
+          "Healthcare Access": "Limited",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Russia", "China", "Turkey"],
+          "International Organizations": ["UN", "CIS", "OIC"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Nepal",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "36 billion USD",
+          "GDP per Capita": "1,200 USD",
+          "Inflation": "4.5%",
+          "Currency": "Nepalese Rupee",
+          "Major Imports": ["Petroleum Products", "Machinery", "Electronics"],
+          "Major Exports": [
+            {"name": "Textiles", "percentage": "30%"},
+            {"name": "Carpets", "percentage": "15%"},
+            {"name": "Agricultural Products", "percentage": "12%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Federal Parliamentary Republic",
+          "Democracy Index": "5.18",
+          "Political Parties": ["Nepal Communist Party", "Nepali Congress", "Janata Samajbadi Party"],
+          "Ideological Spectrum": ["Left", "Center", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "196 people per sq km",
+          "Urban/Rural Distribution": "21% Urban, 79% Rural",
+          "HDI": "0.602",
+          "Healthcare Access": "Limited",
+          "Education Access": "Growing"
+        },
+        "diplomacy": {
+          "Key Allies": ["India", "China", "United States"],
+          "International Organizations": ["UN", "SAARC", "BIMSTEC"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Bhutan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "2.5 billion USD",
+          "GDP per Capita": "3,400 USD",
+          "Inflation": "3.0%",
+          "Currency": "Bhutanese Ngultrum",
+          "Major Imports": ["Fuel", "Machinery", "Food Products"],
+          "Major Exports": [
+            {"name": "Hydroelectricity", "percentage": "35%"},
+            {"name": "Minerals", "percentage": "25%"},
+            {"name": "Agricultural Products", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Constitutional Monarchy",
+          "Democracy Index": "5.71",
+          "Political Parties": ["Druk Nyamrup Tshogpa", "Druk Phuensum Tshogpa"],
+          "Ideological Spectrum": ["Center", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "19 people per sq km",
+          "Urban/Rural Distribution": "42% Urban, 58% Rural",
+          "HDI": "0.654",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["India", "Japan", "EU"],
+          "International Organizations": ["UN", "SAARC", "BIMSTEC"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Burma",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "76 billion USD",
+          "GDP per Capita": "1,400 USD",
+          "Inflation": "9.0%",
+          "Currency": "Myanmar Kyat",
+          "Major Imports": ["Machinery", "Transport Equipment", "Consumer Goods"],
+          "Major Exports": [
+            {"name": "Natural Gas", "percentage": "25%"},
+            {"name": "Agricultural Products", "percentage": "20%"},
+            {"name": "Textiles", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Military Junta",
+          "Democracy Index": "1.95",
+          "Political Parties": ["Military-backed USDP", "NLD (suppressed)"],
+          "Ideological Spectrum": ["Authoritarian", "Pro-democracy (suppressed)"]
+        },
+        "population": {
+          "Population Density": "83 people per sq km",
+          "Urban/Rural Distribution": "31% Urban, 69% Rural",
+          "HDI": "0.585",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "Russia", "Thailand"],
+          "International Organizations": ["UN", "ASEAN"],
+          "Rivals": ["Western democracies"]
+        }
+      },
+      {
+        "country": "Laos",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "20 billion USD",
+          "GDP per Capita": "2,600 USD",
+          "Inflation": "3.5%",
+          "Currency": "Lao Kip",
+          "Major Imports": ["Machinery", "Vehicles", "Consumer Goods"],
+          "Major Exports": [
+            {"name": "Electricity", "percentage": "30%"},
+            {"name": "Mining Products", "percentage": "25%"},
+            {"name": "Agricultural Products", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "One-Party Socialist Republic",
+          "Democracy Index": "1.77",
+          "Political Parties": ["Lao People's Revolutionary Party"],
+          "Ideological Spectrum": ["Communist"]
+        },
+        "population": {
+          "Population Density": "32 people per sq km",
+          "Urban/Rural Distribution": "36% Urban, 64% Rural",
+          "HDI": "0.613",
+          "Healthcare Access": "Limited",
+          "Education Access": "Growing"
+        },
+        "diplomacy": {
+          "Key Allies": ["Vietnam", "China", "Cambodia"],
+          "International Organizations": ["UN", "ASEAN", "WTO"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Taiwan",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "670 billion USD",
+          "GDP per Capita": "28,000 USD",
+          "Inflation": "1.8%",
+          "Currency": "New Taiwan Dollar",
+          "Major Imports": ["Electronics Components", "Machinery", "Crude Oil"],
+          "Major Exports": [
+            {"name": "Semiconductors", "percentage": "35%"},
+            {"name": "Electronics", "percentage": "25%"},
+            {"name": "Machinery", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic",
+          "Democracy Index": "8.94",
+          "Political Parties": ["Democratic Progressive Party", "Kuomintang"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "673 people per sq km",
+          "Urban/Rural Distribution": "79% Urban, 21% Rural",
+          "HDI": "0.916",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Japan", "EU"],
+          "International Organizations": ["WTO", "APEC"],
+          "Rivals": ["China"]
+        }
+      },
+      {
+        "country": "North Korea",
+        "continent": "Asia",
+        "economy": {
+          "GDP": "18 billion USD",
+          "GDP per Capita": "700 USD",
+          "Inflation": "Unknown",
+          "Currency": "North Korean Won",
+          "Major Imports": ["Food", "Fuel", "Machinery"],
+          "Major Exports": [
+            {"name": "Minerals", "percentage": "40%"},
+            {"name": "Textiles", "percentage": "30%"},
+            {"name": "Agricultural Products", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Totalitarian Dictatorship",
+          "Democracy Index": "1.08",
+          "Political Parties": ["Workers' Party of Korea"],
+          "Ideological Spectrum": ["Authoritarian Communist"]
+        },
+        "population": {
+          "Population Density": "214 people per sq km",
+          "Urban/Rural Distribution": "62% Urban, 38% Rural",
+          "HDI": "Unknown",
+          "Healthcare Access": "Limited",
+          "Education Access": "Universal (state-controlled)"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "Russia"],
+          "International Organizations": ["UN"],
+          "Rivals": ["United States", "South Korea", "Japan"]
+        }
+      },
+      {
+        "country": "Papua New Guinea",
+        "continent": "Oceania",
+        "economy": {
+          "GDP": "24 billion USD",
+          "GDP per Capita": "2,500 USD",
+          "Inflation": "4.0%",
+          "Currency": "Papua New Guinean Kina",
+          "Major Imports": ["Machinery", "Transport Equipment", "Manufactured Goods"],
+          "Major Exports": [
+            {"name": "Minerals (Gold, Copper)", "percentage": "40%"},
+            {"name": "Oil and Gas", "percentage": "35%"},
+            {"name": "Agricultural Products", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Democracy",
+          "Democracy Index": "6.03",
+          "Political Parties": ["Pangu Pati", "People's National Congress"],
+          "Ideological Spectrum": ["Center", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "19 people per sq km",
+          "Urban/Rural Distribution": "13% Urban, 87% Rural",
+          "HDI": "0.555",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["Australia", "New Zealand", "Indonesia"],
+          "International Organizations": ["UN", "Commonwealth", "APEC"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Uruguay",
+        "continent": "South America",
+        "economy": {
+          "GDP": "60 billion USD",
+          "GDP per Capita": "17,000 USD",
+          "Inflation": "8.3%",
+          "Currency": "Uruguayan Peso",
+          "Major Imports": ["Machinery", "Chemicals", "Transportation Equipment"],
+          "Major Exports": [
+            {"name": "Agricultural Products (Beef, Soy)", "percentage": "55%"},
+            {"name": "Cellulose", "percentage": "15%"},
+            {"name": "Tourism", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "8.85",
+          "Political Parties": ["Broad Front", "National Party", "Colorado Party"],
+          "Ideological Spectrum": ["Left", "Center-Right", "Center"]
+        },
+        "population": {
+          "Population Density": "20 people per sq km",
+          "Urban/Rural Distribution": "95% Urban, 5% Rural",
+          "HDI": "0.817",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Brazil", "Argentina", "EU"],
+          "International Organizations": ["UN", "Mercosur", "OAS"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Paraguay",
+        "continent": "South America",
+        "economy": {
+          "GDP": "41 billion USD",
+          "GDP per Capita": "5,700 USD",
+          "Inflation": "4.0%",
+          "Currency": "Paraguayan Guaraní",
+          "Major Imports": ["Fuels", "Machinery", "Electronics"],
+          "Major Exports": [
+            {"name": "Electricity", "percentage": "25%"},
+            {"name": "Soybeans", "percentage": "20%"},
+            {"name": "Beef", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "6.24",
+          "Political Parties": ["Colorado Party", "Authentic Radical Liberal Party"],
+          "Ideological Spectrum": ["Center-Right", "Center"]
+        },
+        "population": {
+          "Population Density": "18 people per sq km",
+          "Urban/Rural Distribution": "63% Urban, 37% Rural",
+          "HDI": "0.728",
+          "Healthcare Access": "Limited",
+          "Education Access": "Growing"
+        },
+        "diplomacy": {
+          "Key Allies": ["Brazil", "Argentina", "Taiwan"],
+          "International Organizations": ["UN", "Mercosur", "OAS"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Bolivia",
+        "continent": "South America",
+        "economy": {
+          "GDP": "40 billion USD",
+          "GDP per Capita": "3,400 USD",
+          "Inflation": "2.2%",
+          "Currency": "Bolivian Boliviano",
+          "Major Imports": ["Machinery", "Petroleum Products", "Vehicles"],
+          "Major Exports": [
+            {"name": "Natural Gas", "percentage": "35%"},
+            {"name": "Minerals (Zinc, Silver)", "percentage": "25%"},
+            {"name": "Soybeans", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "5.08",
+          "Political Parties": ["Movement for Socialism", "Civic Community"],
+          "Ideological Spectrum": ["Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "10 people per sq km",
+          "Urban/Rural Distribution": "70% Urban, 30% Rural",
+          "HDI": "0.718",
+          "Healthcare Access": "Growing",
+          "Education Access": "Growing"
+        },
+        "diplomacy": {
+          "Key Allies": ["Venezuela", "Cuba", "China"],
+          "International Organizations": ["UN", "ALBA", "UNASUR"],
+          "Rivals": ["United States"]
+        }
+      },
+      {
+        "country": "Ecuador",
+        "continent": "South America",
+        "economy": {
+          "GDP": "107 billion USD",
+          "GDP per Capita": "6,000 USD",
+          "Inflation": "0.5%",
+          "Currency": "US Dollar",
+          "Major Imports": ["Industrial Supplies", "Fuels", "Consumer Goods"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "40%"},
+            {"name": "Bananas", "percentage": "15%"},
+            {"name": "Shrimp", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Presidential Republic",
+          "Democracy Index": "6.33",
+          "Political Parties": ["Democratic Center", "Social Christian Party", "CREO"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right", "Right"]
+        },
+        "population": {
+          "Population Density": "71 people per sq km",
+          "Urban/Rural Distribution": "64% Urban, 36% Rural",
+          "HDI": "0.759",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Colombia", "Peru"],
+          "International Organizations": ["UN", "OAS", "UNASUR"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Suriname",
+        "continent": "South America",
+        "economy": {
+          "GDP": "3.4 billion USD",
+          "GDP per Capita": "5,800 USD",
+          "Inflation": "50.0%",
+          "Currency": "Surinamese Dollar",
+          "Major Imports": ["Capital Equipment", "Chemicals", "Food"],
+          "Major Exports": [
+            {"name": "Gold", "percentage": "55%"},
+            {"name": "Oil", "percentage": "15%"},
+            {"name": "Agricultural Products", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Constitutional Democracy",
+          "Democracy Index": "6.98",
+          "Political Parties": ["National Democratic Party", "Progressive Reform Party"],
+          "Ideological Spectrum": ["Center-Left", "Center"]
+        },
+        "population": {
+          "Population Density": "4 people per sq km",
+          "Urban/Rural Distribution": "66% Urban, 34% Rural",
+          "HDI": "0.738",
+          "Healthcare Access": "Limited",
+          "Education Access": "Growing"
+        },
+        "diplomacy": {
+          "Key Allies": ["Netherlands", "China", "Brazil"],
+          "International Organizations": ["UN", "CARICOM", "OAS"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Guyana",
+        "continent": "South America",
+        "economy": {
+          "GDP": "8.1 billion USD",
+          "GDP per Capita": "10,200 USD",
+          "Inflation": "2.1%",
+          "Currency": "Guyanese Dollar",
+          "Major Imports": ["Industrial Supplies", "Machinery", "Consumer Goods"],
+          "Major Exports": [
+            {"name": "Oil", "percentage": "40%"},
+            {"name": "Gold", "percentage": "25%"},
+            {"name": "Agriculture (Rice, Sugar)", "percentage": "15%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Republic",
+          "Democracy Index": "6.25",
+          "Political Parties": ["People's Progressive Party", "Partnership for National Unity"],
+          "Ideological Spectrum": ["Center-Left", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "4 people per sq km",
+          "Urban/Rural Distribution": "27% Urban, 73% Rural",
+          "HDI": "0.682",
+          "Healthcare Access": "Limited",
+          "Education Access": "Growing"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "UK", "India"],
+          "International Organizations": ["UN", "CARICOM", "OAS"],
+          "Rivals": ["Venezuela"]
+        }
+      },
+      {
+        "country": "Cuba",
+        "continent": "North America",
+        "economy": {
+          "GDP": "107 billion USD",
+          "GDP per Capita": "9,400 USD",
+          "Inflation": "5.5%",
+          "Currency": "Cuban Peso",
+          "Major Imports": ["Food", "Fuel", "Machinery"],
+          "Major Exports": [
+            {"name": "Medical Services", "percentage": "35%"},
+            {"name": "Nickel", "percentage": "20%"},
+            {"name": "Sugar", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "One-Party Socialist State",
+          "Democracy Index": "2.84",
+          "Political Parties": ["Communist Party of Cuba"],
+          "Ideological Spectrum": ["Communist"]
+        },
+        "population": {
+          "Population Density": "109 people per sq km",
+          "Urban/Rural Distribution": "77% Urban, 23% Rural",
+          "HDI": "0.783",
+          "Healthcare Access": "Universal",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["Venezuela", "Russia", "China"],
+          "International Organizations": ["UN", "ALBA", "CELAC"],
+          "Rivals": ["United States"]
+        }
+      },
+      {
+        "country": "Haiti",
+        "continent": "North America",
+        "economy": {
+          "GDP": "9.5 billion USD",
+          "GDP per Capita": "800 USD",
+          "Inflation": "22.0%",
+          "Currency": "Haitian Gourde",
+          "Major Imports": ["Food", "Manufactured Goods", "Machinery"],
+          "Major Exports": [
+            {"name": "Textiles", "percentage": "35%"},
+            {"name": "Coffee", "percentage": "15%"},
+            {"name": "Cocoa", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic (Unstable)",
+          "Democracy Index": "4.22",
+          "Political Parties": ["Tèt Kale", "Fanmi Lavalas"],
+          "Ideological Spectrum": ["Center-Right", "Left"]
+        },
+        "population": {
+          "Population Density": "414 people per sq km",
+          "Urban/Rural Distribution": "57% Urban, 43% Rural",
+          "HDI": "0.510",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "Dominican Republic", "France"],
+          "International Organizations": ["UN", "OAS", "CARICOM"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Jamaica",
+        "continent": "North America",
+        "economy": {
+          "GDP": "16 billion USD",
+          "GDP per Capita": "5,400 USD",
+          "Inflation": "4.0%",
+          "Currency": "Jamaican Dollar",
+          "Major Imports": ["Fuel", "Food", "Machinery"],
+          "Major Exports": [
+            {"name": "Tourism", "percentage": "40%"},
+            {"name": "Bauxite/Alumina", "percentage": "15%"},
+            {"name": "Agricultural Products", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Parliamentary Democracy",
+          "Democracy Index": "7.13",
+          "Political Parties": ["Jamaica Labour Party", "People's National Party"],
+          "Ideological Spectrum": ["Center-Right", "Center-Left"]
+        },
+        "population": {
+          "Population Density": "273 people per sq km",
+          "Urban/Rural Distribution": "56% Urban, 44% Rural",
+          "HDI": "0.734",
+          "Healthcare Access": "Growing",
+          "Education Access": "Universal"
+        },
+        "diplomacy": {
+          "Key Allies": ["United States", "UK", "Canada"],
+          "International Organizations": ["UN", "CARICOM", "Commonwealth"],
+          "Rivals": []
+        }
+      },
+      {
+        "country": "Democratic Republic of the Congo",
+        "continent": "Africa",
+        "economy": {
+          "GDP": "55 billion USD",
+          "GDP per Capita": "580 USD",
+          "Inflation": "4.7%",
+          "Currency": "Congolese Franc",
+          "Major Imports": ["Foodstuffs", "Mining Equipment", "Transport Equipment"],
+          "Major Exports": [
+            {"name": "Minerals (Copper, Cobalt)", "percentage": "50%"},
+            {"name": "Diamonds", "percentage": "15%"},
+            {"name": "Oil", "percentage": "10%"}
+          ]
+        },
+        "politics": {
+          "Political System": "Semi-Presidential Republic",
+          "Democracy Index": "1.40",
+          "Political Parties": ["Union for Democracy and Social Progress", "Common Front for Congo"],
+          "Ideological Spectrum": ["Center", "Center-Right"]
+        },
+        "population": {
+          "Population Density": "40 people per sq km",
+          "Urban/Rural Distribution": "46% Urban, 54% Rural",
+          "HDI": "0.480",
+          "Healthcare Access": "Limited",
+          "Education Access": "Limited"
+        },
+        "diplomacy": {
+          "Key Allies": ["China", "Belgium", "South Africa"],
+          "International Organizations": ["UN", "African Union", "SADC"],
+          "Rivals": ["Rwanda", "Uganda"]
+        }
+      }
+
+
+
+
+    ],
+    "conflict_zones": {
+        "war_zones": [
+            {
+                "name": "Ukraine-Russia Conflict",
+                "coordinates": [37.5, 49.0],
+                "intensity": 0.9,
+                "description": "Ongoing military conflict in Eastern Ukraine",
+                "countries_involved": ["Ukraine", "Russia"],
+                "date_started": "2022-02-24",
+                "news_source": "https://www.reuters.com/places/ukraine",
+                "type": "war"
+            }
+        ],
+        "warm_zones": [
+            {
+                "name": "Taiwan Strait Tensions",
+                "coordinates": [121.0, 23.5],
+                "intensity": 0.7,
+                "description": "Military tensions in the Taiwan Strait",
+                "countries_involved": ["China", "Taiwan"],
+                "date_started": "2023-01-01",
+                "news_source": "https://www.bbc.com/news/world/asia",
+                "type": "warm"
+            },
+            {
+                "name": "Myanmar Conflict",
+                "coordinates": [96.0, 21.0],
+                "intensity": 0.9,
+                "description": "Ongoing civil war involving multiple ethnic armed organizations and the military junta.",
+                "countries_involved": ["Myanmar"],
+                "date_started": "1948-01-04",
+                "news_source": "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts",
+                "type": "war"
+          },
+          {
+            "name": "Arab-Israeli Conflict",
+            "coordinates": [35.0, 31.5],
+            "intensity": 0.7,
+            "description": "Long-standing conflict between Israel and neighboring Arab countries, with ongoing violence in the region.",
+            "countries_involved": ["Israel", "Palestine"],
+            "date_started": "1948-05-15",
+            "news_source": "https://www.aljazeera.com/news/middleeast/",
+            "type": "war"
+        },
+        {
+          "name": "Sudan Conflict",
+          "coordinates": [30.0, 15.0],
+          "intensity": 0.85,
+          "description": "Ongoing conflict between Sudanese Armed Forces and Rapid Support Forces.",
+          "countries_involved": ["Sudan"],
+          "date_started": "2023-04-15",
+          "news_source": "https://www.reuters.com/world/africa/",
+          "type": "war"
+      }
+      
+         
+          
+        ]
+    },
+    "strategic_points": {
+        "trade_gates": [
+            {
+                "name": "Suez Canal",
+                "coordinates": [32.35, 30.61],
+                "importance": 0.9,
+                "description": "Major maritime route connecting Mediterranean and Red Sea",
+                "countries_involved": ["Egypt"],
+                "annual_traffic": "1.2 billion tons",
+                "type": "trade_gate"
+            }
+        ]
+    }
+}

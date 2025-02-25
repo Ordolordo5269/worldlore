@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info</title>
+    <!-- Mapbox CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="country-info.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div id="country-info-container">
+        <!-- Botón de retorno a inicio -->
+        <button id="return-home" class="return-home-button">
+            <span class="return-icon">⌂</span>
+            <span class="return-text">Home</span>
+        </button>
+
+        <!-- Añadir después del botón de retorno y antes del mapa -->
+        <div class="search-container">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="country-search" placeholder="Search country...">
+                <div class="search-results"></div>
+            </div>
+        </div>
+
+        <!-- Añadir después del search-container y antes del country-map -->
+        <div class="indices-container">
+            <div class="indices-header">
+                <i class="fas fa-chart-line"></i>
+                <span>Global Indexes</span>
+            </div>
+            <div class="indices-buttons">
+                <button id="hdi-toggle" class="index-button">
+                    <i class="fas fa-chart-line"></i>
+                    HDI
+                </button>
+                <button id="democracy-toggle" class="index-button">
+                    <i class="fas fa-balance-scale"></i>
+                    Democracy Index
+                </button>
+                <button id="inflation-toggle" class="index-button">
+                    <i class="fas fa-percentage"></i>
+                    Inflation Rate
+                </button>
+                <button id="gdp-toggle" class="index-button">
+                    <i class="fas fa-dollar-sign"></i>
+                    GDP per Capita
+                </button>
+                <button id="gdp-total-toggle" class="index-button">
+                    <i class="fas fa-chart-bar"></i>
+                    GDP Total
+                </button>
+                
+            </div>
+        </div>
+
+        <!-- Contenedor del mapa -->
+        <div id="country-map"></div>
+
+        <!-- Añadir dentro del body, después del mapa -->
+        <div class="country-sidebar">
+            <div class="resize-handle"></div>
+            <div class="country-header">
+                <img class="country-flag" src="" alt="Country flag">
+                <h2 class="country-title"></h2>
+                <button class="close-sidebar">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <!-- Añadir después del header -->
+            <div class="country-actions">
+                <button class="action-button compare-button">
+                    <i class="fas fa-balance-scale"></i>
+                    Compare
+                </button>
+                <button class="action-button download-button">
+                    <i class="fas fa-download"></i>
+                    Download
+                </button>
+            </div>
+
+            <!-- Panel de comparación dentro del sidebar -->
+            <div class="comparison-panel">
+                <div class="comparison-header">
+                    <h3>Compare Countries</h3>
+                    <button class="close-comparison">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="comparison-countries">
+                    <div class="country-slot" data-slot="1">
+                        <div class="country-placeholder">
+                            <i class="fas fa-plus"></i>
+                            <span>Select Country</span>
+                        </div>
+                    </div>
+                    <div class="comparison-vs">VS</div>
+                    <div class="country-slot" data-slot="2">
+                        <div class="country-placeholder">
+                            <i class="fas fa-plus"></i>
+                            <span>Select Country</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comparison-content"></div>
+            </div>
+
+            <!-- Secciones de datos -->
+            <button class="section-toggle" data-section="economy">
+                <i class="fas fa-chart-line"></i>
+                Economy
+            </button>
+            <div class="section-content">
+                <!-- Contenido dinámico -->
+            </div>
+
+            <button class="section-toggle" data-section="politics">
+                <i class="fas fa-landmark"></i>
+                Politics
+            </button>
+            <div class="section-content">
+                <!-- Contenido dinámico -->
+            </div>
+
+            <button class="section-toggle" data-section="population">
+                <i class="fas fa-users"></i>
+                Population
+            </button>
+            <div class="section-content">
+                <!-- Contenido dinámico -->
+            </div>
+
+            <button class="section-toggle" data-section="diplomacy">
+                <i class="fas fa-globe"></i>
+                Diplomacy
+            </button>
+            <div class="section-content">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts necesarios -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <!-- Scripts de Country Info -->
+    <script src="js/config.js" type="module"></script>
+    <script src="js/layers.js" type="module"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html> 

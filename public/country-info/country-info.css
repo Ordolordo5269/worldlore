@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --primary-color: #4ca1af;
+    --dark-bg: #0f172a;
+    --darker-bg: #070b14;
+    --glass-bg: rgba(7, 11, 20, 0.95);
+    --border-color: rgba(76, 161, 175, 0.2);
+    --hover-color: rgba(76, 161, 175, 0.1);
+    --text-primary: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --transition-speed: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--darker-bg);
+    color: var(--text-primary);
+    overflow: hidden;
+}
+
+/* Contenedor del mapa */
+#country-map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    z-index: 1;
+}
+
+/* Contenedor principal */
+#country-info-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Botón de retorno a inicio */
+.return-home-button {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    padding: 12px 20px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.return-home-button:hover {
+    transform: translateY(-2px);
+    background: var(--darker-bg);
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 15px rgba(76, 161, 175, 0.3);
+}
+
+.return-home-button:active {
+    transform: translateY(0);
+}
+
+.return-icon {
+    font-size: 1.4rem;
+}
+ 
+/* Responsive */
+@media (max-width: 768px) {
+    .return-home-button {
+        top: 20px;
+        left: 20px;
+        padding: 10px 15px;
+    }
+    
+    .return-text {
+        display: none;
+    }
+}
+
+/* Sidebar principal */
+.country-sidebar {
+    position: fixed;
+    right: -600px;
+    top: 0;
+    width: 600px;
+    height: 100vh;
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border-left: 1px solid var(--border-color);
+    transition: right var(--transition-speed);
+    z-index: 1000;
+    overflow-y: auto;
+    box-shadow: -5px 0 30px rgba(0, 0, 0, 0.5);
+    min-width: 500px;
+    max-width: 1000px;
+}
+
+.country-sidebar.open {
+    right: 0;
+}
+
+/* Encabezado del país */
+.country-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--darker-bg);
+}
+
+.country-flag {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.country-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* Secciones colapsables */
+.section-toggle {
+    width: 100%;
+    padding: 15px 20px;
+    background: var(--darker-bg);
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.section-toggle:hover {
+    background: var(--hover-color);
+}
+
+.section-toggle i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.section-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: var(--darker-bg);
+}
+
+.section-toggle.active + .section-content {
+    max-height: 500px;
+}
+
+/* Contenido de las secciones */
+.data-item {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(76, 161, 175, 0.1);
+}
+
+.data-label {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.data-value {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Gráficos */
+.chart-container {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 300px; /* Altura fija para ambos gráficos */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .country-sidebar {
+        width: 100%;
+        right: -100%;
+    }
+}
+
+/* Botón de redimensionamiento */
+.resize-handle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    cursor: ew-resize;
+    background: var(--border-color);
+}
+
+.resize-handle:hover {
+    background: var(--primary-color);
+}
+
+/* Botones de acción */
+.country-actions {
+    display: flex;
+    gap: 10px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(76, 161, 175, 0.2);
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+    background: var(--darker-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    background: var(--hover-color);
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+/* Gráficos adicionales */
+.chart-section {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.chart-title {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Panel de comparación */
+.comparison-panel {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--glass-bg);
+    z-index: 10;
+    overflow-y: auto;
+}
+
+.comparison-panel.active {
+    display: block;
+}
+
+.comparison-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--darker-bg);
+}
+
+.comparison-header h3 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.close-comparison {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.comparison-countries {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 15px;
+}
+
+.country-slot {
+    flex: 1;
+    aspect-ratio: 3/2;
+    border: 2px dashed var(--border-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: var(--darker-bg);
+}
+
+.country-slot:hover {
+    background: var(--hover-color);
+    border-color: var(--primary-color);
+}
+
+.country-slot.selected {
+    background: var(--hover-color);
+    border: 2px solid var(--primary-color);
+}
+
+.country-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #94a3b8;
+}
+
+.country-placeholder i {
+    font-size: 1.5rem;
+}
+
+.comparison-vs {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.comparison-content {
+    padding: 20px;
+}
+
+/* Estilos para los países seleccionados */
+.selected-country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.selected-country img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.selected-country span {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Estilos para la comparación de datos */
+.comparison-section {
+    margin-bottom: 20px;
+    background: var(--darker-bg);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.comparison-section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: var(--darker-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.comparison-section-header i {
+    color: var(--primary-color);
+}
+
+.comparison-section-header h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.comparison-table {
+    width: 100%;
+}
+
+.comparison-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.comparison-row.header {
+    background: var(--darker-bg);
+    font-weight: 500;
+}
+
+.comparison-cell {
+    padding: 12px 15px;
+    color: #dcdcdc;
+}
+
+.comparison-row.header .comparison-cell {
+    color: var(--primary-color);
+}
+
+.comparison-cell:first-child {
+    color: #94a3b8;
+}
+
+/* Actualizar scrollbar */
+.country-sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.country-sidebar::-webkit-scrollbar-track {
+    background: var(--darker-bg);
+}
+
+.country-sidebar::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+.country-sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
+
+/* Actualizar efectos de glassmorphism */
+.country-sidebar,
+.comparison-panel,
+.return-home-button {
+    backdrop-filter: blur(20px);
+}
+
+/* Botón de cierre de la sidebar */
+.close-sidebar {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-left: auto;
+    transition: all 0.3s ease;
+}
+
+.close-sidebar:hover {
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+/* Buscador de países */
+.search-container {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 300px;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+}
+
+#country-search {
+    width: 100%;
+    padding: 12px 20px 12px 45px;
+    background: var(--glass-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    backdrop-filter: blur(20px);
+    transition: all 0.3s ease;
+}
+
+#country-search:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 15px rgba(76, 161, 175, 0.3);
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    background: var(--glass-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+    backdrop-filter: blur(20px);
+}
+
+.search-results.active {
+    display: block;
+}
+
+.search-result-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.search-result-item:hover {
+    background: var(--hover-color);
+}
+
+.search-result-item img {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+/* Ajustar responsive */
+@media (max-width: 768px) {
+    .search-container {
+        width: calc(100% - 140px);
+        left: 120px;
+        transform: none;
+    }
+}
+
+/* Añadir después de los estilos de action-button */
+.hdi-button-container {
+    margin-left: 10px;
+}
+
+.action-button.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+/* Actualizar la posición del contenedor de índices */
+.indices-container {
+    position: fixed;
+    top: 90px;  /* Ajustado para estar debajo del botón Home */
+    left: 30px; /* Alineado con el botón Home */
+    z-index: 1000;
+    background: var(--glass-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    width: 200px; /* Ancho fijo para mejor alineación */
+}
+
+.indices-header {
+    padding: 12px 15px;
+    background: var(--darker-bg);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.indices-header i {
+    color: var(--primary-color);
+}
+
+.indices-buttons {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.index-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+    background: var(--darker-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.index-button:hover {
+    background: var(--hover-color);
+    border-color: var(--primary-color);
+}
+
+.index-button.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.index-button i {
+    width: 20px;
+    text-align: center;
+}
+
+/* Ajustar responsive */
+@media (max-width: 768px) {
+    .indices-container {
+        top: 80px;  /* Ajustado para móviles */
+        left: 20px;
+        width: auto;  /* Ancho automático en móviles */
+        min-width: 150px;
+    }
+} 

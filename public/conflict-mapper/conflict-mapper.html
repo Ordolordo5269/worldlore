@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conflict Mapper</title>
+    <!-- Mapbox CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+    <!-- Tu CSS personalizado - Actualizando la ruta -->
+    <link rel="stylesheet" href="conflict-mapper.css">
+</head>
+
+<!-- ESTE ES EL CONTENEDOR PRINCIPAL DEL CONFLICT MAPPER -->
+<div id="conflict-map-container">
+    <!-- Botón de retorno a inicio -->
+    <button id="return-home" class="return-home-button">
+        <span class="return-icon">⌂</span>
+        <span class="return-text">Home</span>
+    </button>
+
+    <!-- Contenedor del mapa -->
+    <div id="conflict-map"></div>
+
+    <!-- News Feed Button -->
+    <button id="news-feed-button" class="news-feed-toggle"></button>
+
+    <!-- News Feed Modal -->
+    <div id="news-modal" class="news-modal">
+        <div class="news-modal-content">
+            <div class="news-modal-header">
+                <h2>Latest Foreign Affairs News</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div id="news-feed" class="news-feed">
+                <!-- News items will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de leyenda -->
+    <div class="conflict-legend-bar">
+        <h1>Conflict Mapper</h1>
+        <div class="legend-section">
+            <h3>Active Zones</h3>
+            <ol class="legend-list">
+                <li><span class="indicator war"></span> War</li>
+                <li><span class="indicator warm"></span> Warm</li>
+            </ol>
+        </div>
+        <div class="legend-section">
+            <h3>Alliances</h3>
+            <ol class="legend-list">
+                <li><span class="indicator nato"></span> NATO</li>
+                <li><span class="indicator eu"></span> EU</li>
+                <li><span class="indicator brics"></span> BRICS</li>
+                <li><span class="indicator un"></span> UN</li>
+                <li><span class="indicator mercosur"></span> MERCOSUR</li>
+            </ol>
+        </div>
+        <div class="legend-section">
+            <h3>Trade Gates</h3>
+            <ol class="legend-list">
+                <li><span class="indicator trade-gate"></span> Straits</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Panel lateral derecho para noticias -->
+    <div class="conflict-right-tab" id="conflict-right-tab">
+        <button class="toggle-right-tab" id="toggle-right-tab" aria-label="Toggle panel">&#9776;</button>
+        <div class="right-tab-content">
+            <h3>The Latest News</h3>
+            <div id="news-feed-right-tab"></div>
+        </div>
+    </div>
+</div>
+
+<!-- SCRIPTS NECESARIOS -->
+<script src="https://cdn.jsdelivr.net/npm/@turf/turf"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+<!-- Scripts del Conflict Mapper -->
+<script src="js/config.js" type="module"></script>
+<script src="js/layers.js" type="module"></script>
+<script src="js/main.js" type="module"></script>
+</body>
+</html>
