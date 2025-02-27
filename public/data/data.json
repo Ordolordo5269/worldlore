@@ -32,10 +32,77 @@
           "Key Allies": ["France", "Germany", "Italy"],
           "International Organizations": ["EU", "UN", "NATO"],
           "Rivals": ["None"]
-        }
+        },
+        "indices": {
+            "economico": 91.27091217041016,
+            "militar": 5.48764705657959,
+            "blando": 23.249483108520508,
+            "global": 120.00804138183594,
+            "desglose": {
+                "economica": {
+                    "energia": 0.0065534222126007085,
+                    "bienes_primarios": 0.10157690048217773,
+                    "manufacturas": 0.005876396745443344,
+                    "servicios": 0.2184985399246216,
+                    "inversiones": 0.019187268614768983,
+                    "contribucion": {
+                        "energia": 0.0036686714738607407,
+                        "bienes_primarios": 0.05686376616358757,
+                        "manufacturas": 0.003289665561169386,
+                        "servicios": 0.12231766432523727,
+                        "inversiones": 0.010741225443780422
+                    }
+                },
+                "militar": {
+                    "tropas": 7.890363006591796,
+                    "equipamiento": 33.12857299804688,
+                    "contribucion": {
+                        "tropas": 0.02715042047202587,
+                        "equipamiento": 0.11399408429861069
+                    }
+                },
+                "blanda": {
+                    "migraciones": 0.16479413509368895,
+                    "turismo": 0.0,
+                    "deportes": 0.11097486019134523,
+                    "cultura": 0.011148965209722519,
+                    "informacion": 0.6459244537353516,
+                    "tecnologia": 3.8160501389938874e-07,
+                    "ciencia": 0.062033705711364746,
+                    "educacion": 0.0,
+                    "cooperacion": 0.0,
+                    "clima": 0.43975129127502444,
+                    "contribucion": {
+                        "migraciones": 0.09225340932607651,
+                        "turismo": 0.0,
+                        "deportes": 0.0621248334646225,
+                        "cultura": 0.0062413024716079235,
+                        "informacion": 0.3615949749946594,
+                        "tecnologia": 2.136252987838816e-07,
+                        "ciencia": 0.03472708910703659,
+                        "educacion": 0.0,
+                        "cooperacion": 0.0,
+                        "clima": 0.24617718160152435
+                    }
+                }
+            }
+        },
+        "rankings": {
+            "economico": 26,
+            "militar": 49,
+            "blando": 30,
+            "global": 30
+        },
+        "participacion": {
+            "economica": 0.7605399489402771,
+            "militar": 0.04572732746601105,
+            "blanda": 0.19373272359371185,
+            "global": 0.00926
+        },
+        "percentil_global": 0.001748
       },
       {
-        "country": "United States of America",
+        "country": "United States",
         "continent": "North America",
         "economy": {
           "GDP": "21.4 trillion USD",
@@ -66,7 +133,26 @@
           "Key Allies": ["Canada", "UK", "Japan"],
           "International Organizations": ["UN", "NATO", "WTO"],
           "Rivals": ["China", "Russia"]
-        }
+        },
+        "indices": {
+            "economico": 947.2164916992188,
+            "militar": 89.43672943115234,
+            "blando": 283.4561767578125,
+            "global": 1320.1094970703125
+        },
+        "rankings": {
+            "economico": 1,
+            "militar": 1,
+            "blando": 1,
+            "global": 1
+        },
+        "participacion": {
+            "economica": 0.7175223231315613,
+            "militar": 0.0677471041679382,
+            "blanda": 0.2147305607795715,
+            "global": 0.143599
+        },
+        "percentil_global": 0.009901
       },
       {
         "country": "China",
@@ -100,7 +186,26 @@
           "Key Allies": ["Russia", "Pakistan", "North Korea"],
           "International Organizations": ["UN", "BRICS", "SCO"],
           "Rivals": ["United States", "India"]
-        }
+        },
+        "indices": {
+            "economico": 800.0,
+            "militar": 80.0,
+            "blando": 200.0,
+            "global": 1080.0
+        },
+        "rankings": {
+            "economico": 2,
+            "militar": 2,
+            "blando": 2,
+            "global": 2
+        },
+        "participacion": {
+            "economica": 0.740740741,
+            "militar": 0.074074074,
+            "blanda": 0.185185185,
+            "global": 0.12
+        },
+        "percentil_global": 0.009
       },
       {
         "country": "Germany",
@@ -134,7 +239,26 @@
           "Key Allies": ["France", "Netherlands", "Italy"],
           "International Organizations": ["EU", "UN", "NATO"],
           "Rivals": ["None"]
-        }
+        },
+        "indices": {
+            "economico": 626.8120727539062,
+            "militar": 27.047006607055664,
+            "blando": 226.08367919921875,
+            "global": 879.9427490234375
+        },
+        "rankings": {
+            "economico": 3,
+            "militar": 17,
+            "blando": 3,
+            "global": 3
+        },
+        "participacion": {
+            "economica": 0.7123327851295471,
+            "militar": 0.03073723614215851,
+            "blanda": 0.25692999362945557,
+            "global": 0.063599
+        },
+        "percentil_global": 0.008618
       },
       {
         "country": "India",
@@ -678,7 +802,26 @@
           "Key Allies": ["Germany", "Italy", "Spain"],
           "International Organizations": ["EU", "UN", "NATO"],
           "Rivals": ["None"]
-        }
+        },
+        "indices": {
+            "economico": 208.24481201171875,
+            "militar": 4.3487372398376465,
+            "blando": 30.61994743347168,
+            "global": 243.2135009765625
+        },
+        "rankings": {
+            "economico": 12,
+            "militar": 53,
+            "blando": 23,
+            "global": 16
+        },
+        "participacion": {
+            "economica": 0.8562222123146057,
+            "militar": 0.017880327999591827,
+            "blanda": 0.12589740753173828,
+            "global": 0.021129
+        },
+        "percentil_global": 0.001385
       },
       {
         "country": "South Korea",
@@ -3411,10 +3554,50 @@
                 "name": "Ukraine-Russia Conflict",
                 "coordinates": [37.5, 49.0],
                 "intensity": 0.9,
-                "description": "Ongoing military conflict in Eastern Ukraine",
+                "description": "Invasión militar rusa de Ucrania con combates intensos, crisis humanitaria y tensiones internacionales.",
                 "countries_involved": ["Ukraine", "Russia"],
                 "date_started": "2022-02-24",
                 "news_source": "https://www.reuters.com/places/ukraine",
+                "type": "war"
+            },
+            {
+                "name": "Sudan Civil War",
+                "coordinates": [32.5, 15.5],
+                "intensity": 0.85,
+                "description": "Conflicto entre el ejército sudanés y las Fuerzas de Apoyo Rápido, causando una grave crisis humanitaria.",
+                "countries_involved": ["Sudan"],
+                "date_started": "2023-04-15",
+                "news_source": "https://www.aljazeera.com/where/sudan/",
+                "type": "war"
+            },
+            {
+                "name": "Yemen Civil War",
+                "coordinates": [44.2, 15.3],
+                "intensity": 0.8,
+                "description": "Conflicto prolongado entre el gobierno yemení y los rebeldes hutíes, con intervención de coalición liderada por Arabia Saudita.",
+                "countries_involved": ["Yemen", "Saudi Arabia", "Iran"],
+                "date_started": "2014-09-21",
+                "news_source": "https://www.bbc.com/news/topics/c77jz3md707t",
+                "type": "war"
+            },
+            {
+                "name": "Israel-Hamas War",
+                "coordinates": [34.75, 31.5],
+                "intensity": 0.95,
+                "description": "Conflicto intenso entre Israel y Hamas en Gaza, con crisis humanitaria severa y alto número de víctimas civiles.",
+                "countries_involved": ["Israel", "Palestine"],
+                "date_started": "2023-10-07",
+                "news_source": "https://www.reuters.com/world/middle-east/",
+                "type": "war"
+            },
+            {
+                "name": "Myanmar Civil War",
+                "coordinates": [96.0, 21.0],
+                "intensity": 0.75,
+                "description": "Conflicto entre la junta militar y múltiples grupos étnicos armados, con crisis humanitaria creciente.",
+                "countries_involved": ["Myanmar"],
+                "date_started": "2021-02-01",
+                "news_source": "https://www.irrawaddy.com/",
                 "type": "war"
             }
         ],
@@ -3423,45 +3606,82 @@
                 "name": "Taiwan Strait Tensions",
                 "coordinates": [121.0, 23.5],
                 "intensity": 0.7,
-                "description": "Military tensions in the Taiwan Strait",
+                "description": "Tensiones militares crecientes entre China y Taiwan, con frecuentes incursiones aéreas y navales.",
                 "countries_involved": ["China", "Taiwan"],
                 "date_started": "2023-01-01",
-                "news_source": "https://www.bbc.com/news/world/asia",
+                "news_source": "https://www.reuters.com/world/asia-pacific/",
                 "type": "warm"
             },
             {
-                "name": "Myanmar Conflict",
-                "coordinates": [96.0, 21.0],
-                "intensity": 0.9,
-                "description": "Ongoing civil war involving multiple ethnic armed organizations and the military junta.",
-                "countries_involved": ["Myanmar"],
-                "date_started": "1948-01-04",
-                "news_source": "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts",
-                "type": "war"
-          },
-          {
-            "name": "Arab-Israeli Conflict",
-            "coordinates": [35.0, 31.5],
-            "intensity": 0.7,
-            "description": "Long-standing conflict between Israel and neighboring Arab countries, with ongoing violence in the region.",
-            "countries_involved": ["Israel", "Palestine"],
-            "date_started": "1948-05-15",
-            "news_source": "https://www.aljazeera.com/news/middleeast/",
-            "type": "war"
-        },
-        {
-          "name": "Sudan Conflict",
-          "coordinates": [30.0, 15.0],
-          "intensity": 0.85,
-          "description": "Ongoing conflict between Sudanese Armed Forces and Rapid Support Forces.",
-          "countries_involved": ["Sudan"],
-          "date_started": "2023-04-15",
-          "news_source": "https://www.reuters.com/world/africa/",
-          "type": "war"
-      }
-      
-         
-          
+                "name": "Korean Peninsula Tensions",
+                "coordinates": [126.0, 38.0],
+                "intensity": 0.6,
+                "description": "Tensiones continuas entre Corea del Norte y del Sur, con pruebas de misiles frecuentes.",
+                "countries_involved": ["North Korea", "South Korea"],
+                "date_started": "2023-01-01",
+                "news_source": "https://www.38north.org/",
+                "type": "warm"
+            },
+            {
+                "name": "Ethiopia-Eritrea Border Tension",
+                "coordinates": [39.0, 14.0],
+                "intensity": 0.5,
+                "description": "Tensiones fronterizas persistentes tras el conflicto de Tigray.",
+                "countries_involved": ["Ethiopia", "Eritrea"],
+                "date_started": "2022-09-01",
+                "news_source": "https://www.africanews.com/",
+                "type": "warm"
+            },
+            {
+                "name": "Armenia-Azerbaijan Conflict",
+                "coordinates": [45.0, 40.0],
+                "intensity": 0.65,
+                "description": "Disputas territoriales continuas sobre Nagorno-Karabakh con escaramuzas frecuentes.",
+                "countries_involved": ["Armenia", "Azerbaijan"],
+                "date_started": "2020-09-27",
+                "news_source": "https://eurasianet.org/",
+                "type": "warm"
+            },
+            {
+                "name": "Venezuela-Guyana Border Dispute",
+                "coordinates": [-61.0, 7.0],
+                "intensity": 0.55,
+                "description": "Tensiones crecientes por la región del Esequibo, rica en recursos.",
+                "countries_involved": ["Venezuela", "Guyana"],
+                "date_started": "2023-12-03",
+                "news_source": "https://www.reuters.com/world/americas/",
+                "type": "warm"
+            },
+            {
+                "name": "South China Sea Dispute",
+                "coordinates": [114.0, 10.0],
+                "intensity": 0.6,
+                "description": "Disputas territoriales marítimas entre varios países del sudeste asiático y China.",
+                "countries_involved": ["China", "Vietnam", "Philippines", "Malaysia", "Taiwan"],
+                "date_started": "2020-01-01",
+                "news_source": "https://amti.csis.org/",
+                "type": "warm"
+            },
+            {
+                "name": "Iran-West Tensions",
+                "coordinates": [53.0, 32.0],
+                "intensity": 0.7,
+                "description": "Tensiones por programa nuclear iraní y conflictos regionales en Medio Oriente.",
+                "countries_involved": ["Iran", "United States", "Israel"],
+                "date_started": "2022-01-01",
+                "news_source": "https://www.al-monitor.com/",
+                "type": "warm"
+            },
+            {
+                "name": "Kosovo-Serbia Tensions",
+                "coordinates": [21.0, 42.5],
+                "intensity": 0.55,
+                "description": "Tensiones étnicas y políticas continuas en los Balcanes.",
+                "countries_involved": ["Kosovo", "Serbia"],
+                "date_started": "2023-05-29",
+                "news_source": "https://balkaninsight.com/",
+                "type": "warm"
+            }
         ]
     },
     "strategic_points": {

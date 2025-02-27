@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600&display=swap');
 
 :root {
-    --primary-color: #4ca1af;
-    --glass-bg: rgba(0, 0, 0, 0.85);
+    --primary-color: #90CAF9;
+    --dark-bg: #102A43;
+    --glass-bg: rgba(27, 58, 87, 0.95);
+    --darker-bg: #1B3A57;
+    --border-color: rgba(144, 202, 249, 0.2);
+    --hover-color: rgba(144, 202, 249, 0.1);
+    --text-primary: #FFFFFF;
+    --text-secondary: #E3F2FD;
+    --accent-color: #64B5F6;
+    --gradient-title: linear-gradient(to right, #FFFFFF 30%, #90CAF9 90%);
+    --gradient-button: linear-gradient(to right, #1B3A57 30%, #2C5282 90%);
     --transition-speed: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -14,8 +23,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #0f172a;
-    color: #dcdcdc;
+    background: var(--dark-bg);
+    color: var(--text-primary);
     overflow: hidden;
 }
 
@@ -118,9 +127,9 @@ body {
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(15, 23, 42, 0.95);
+    background: var(--glass-bg);
     backdrop-filter: blur(20px);
-    border-right: 1px solid rgba(76, 161, 175, 0.2);
+    border-right: 1px solid var(--border-color);
     padding: 25px;
     border-radius: 12px;
     z-index: 1000;
@@ -133,6 +142,11 @@ body {
     color: var(--primary-color);
     margin-bottom: 25px;
     text-shadow: 0 0 20px rgba(76, 161, 175, 0.2);
+    background: var(--gradient-title);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .legend-section {
@@ -160,8 +174,8 @@ body {
     align-items: center;
     padding: 14px 18px;
     margin: 10px 0;
-    background: rgba(15, 23, 42, 0.95);
-    border: 1px solid rgba(76, 161, 175, 0.1);
+    background: var(--darker-bg);
+    border: 1px solid var(--border-color);
     border-radius: 12px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
@@ -176,8 +190,8 @@ body {
 
 .legend-list li:hover {
     transform: translateX(8px);
-    background: rgba(76, 161, 175, 0.15);
-    border-color: rgba(76, 161, 175, 0.3);
+    background: var(--hover-color);
+    border-color: var(--primary-color);
     box-shadow: 0 4px 15px rgba(76, 161, 175, 0.2);
 }
 
@@ -367,7 +381,7 @@ body {
 
 /* Estilos para las noticias */
 .news-item {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--darker-bg);
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 5px;
@@ -415,9 +429,9 @@ body {
     height: auto;
     padding: 12px 20px;
     border-radius: 25px;
-    background: rgba(15, 23, 42, 0.95);  /* Cambiado a color base de la web */
+    background: var(--glass-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(76, 161, 175, 0.2);  /* Borde con el color primario */
+    border: 1px solid var(--border-color);
     color: white;
     font-size: 1rem;
     cursor: pointer;
@@ -444,7 +458,7 @@ body {
 
 .news-feed-toggle:hover {
     transform: translateY(-2px) scale(1.02);
-    background: rgba(30, 41, 59, 0.98);  /* Tono más claro al hover */
+    background: var(--darker-bg);
     border-color: var(--primary-color);
     box-shadow: 0 6px 20px rgba(76, 161, 175, 0.3);
 }
@@ -490,7 +504,7 @@ body {
     max-width: 800px;
     max-height: 80vh;
     margin: 50px auto;
-    background: rgba(15, 23, 42, 0.95);
+    background: var(--glass-bg);
     border-radius: 15px;
     padding: 20px;
     overflow-y: auto;
@@ -550,7 +564,7 @@ body {
 }
 
 .news-item {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--darker-bg);
     border-radius: 10px;
     padding: 15px;
     transition: all 0.3s ease;
@@ -559,7 +573,7 @@ body {
 
 .news-item:hover {
     transform: translateY(-2px);
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--hover-color);
 }
 
 .news-item img {
@@ -613,11 +627,11 @@ body {
     top: 30px;
     left: 30px;
     padding: 12px 20px;
-    background: rgba(15, 23, 42, 0.95);
+    background: var(--glass-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(76, 161, 175, 0.2);
+    border: 1px solid var(--border-color);
     border-radius: 25px;
-    color: white;
+    color: var(--text-primary);
     cursor: pointer;
     z-index: 1000;
     display: flex;
@@ -631,7 +645,7 @@ body {
 
 .return-home-button:hover {
     transform: translateY(-2px);
-    background: rgba(30, 41, 59, 0.98);
+    background: var(--darker-bg);
     border-color: var(--primary-color);
     box-shadow: 0 4px 15px rgba(76, 161, 175, 0.3);
 }
@@ -689,4 +703,86 @@ body {
     .return-text {
         display: none; /* Solo mostrar icono en móvil */
     }
+}
+
+/* Estilos para los popups de conflictos */
+.conflict-popup {
+    max-width: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.conflict-popup .mapboxgl-popup-content {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    color: var(--text-primary);
+}
+
+.conflict-popup .mapboxgl-popup-close-button {
+    color: var(--text-primary);
+    font-size: 18px;
+    padding: 8px;
+    right: 5px;
+    top: 5px;
+}
+
+.conflict-popup .mapboxgl-popup-close-button:hover {
+    background: none;
+    color: var(--primary-color);
+}
+
+.conflict-popup-content h3 {
+    color: var(--primary-color);
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.conflict-popup-content p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: var(--text-secondary);
+}
+
+.conflict-popup-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.conflict-popup-details span {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+}
+
+.conflict-popup-countries {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.conflict-popup-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background: var(--primary-color);
+    color: var(--dark-bg);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.conflict-popup-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(144, 202, 249, 0.3);
 }

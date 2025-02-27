@@ -1,6 +1,79 @@
 // Archivo requerido por el HTML, aunque esté vacío por ahora
 export const layers = {};
 
+class ConflictPopupManager {
+    constructor(map) {
+        this.map = map;
+        this.popup = new mapboxgl.Popup({
+            closeButton: true,
+            closeOnClick: true,
+            className: 'conflict-popup'
+        });
+    }
+
+    show(e) {
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const props = e.features[0].properties;
+
+        // Asegurarse de que countries_involved sea un array
+        let countriesList;
+        try {
+            // Si es una cadena JSON, intentar parsearlo
+            countriesList = typeof props.countries_involved === 'string' 
+                ? JSON.parse(props.countries_involved)
+                : props.countries_involved;
+            
+            // Si no es un array, convertirlo en uno
+            if (!Array.isArray(countriesList)) {
+                countriesList = [countriesList].filter(Boolean);
+            }
+        } catch (error) {
+            console.warn('Error parsing countries_involved:', error);
+            countriesList = [];
+        }
+
+        const html = `
+            <div class="conflict-popup-content">
+                <h3>${props.name}</h3>
+                <p>${props.description}</p>
+                <div class="conflict-popup-details">
+                    <span>Inicio: ${props.date_started}</span>
+                    <span>Intensidad: ${(props.intensity * 100).toFixed(0)}%</span>
+                </div>
+                <div class="conflict-popup-countries">
+                    <strong>Países involucrados:</strong><br>
+                    ${countriesList.join(', ') || 'No especificados'}
+                </div>
+                <a href="${props.news_source}" 
+                   target="_blank" 
+                   class="conflict-popup-link">
+                    Ver noticias relacionadas
+                </a>
+            </div>
+        `;
+
+        this.popup.setLngLat(coordinates)
+            .setHTML(html)
+            .addTo(this.map);
+    }
+
+    addEventListeners() {
+        ['war-zones', 'warm-zones'].forEach(layerId => {
+            // Click event
+            this.map.on('click', layerId, (e) => this.show(e));
+
+            // Hover events
+            this.map.on('mouseenter', layerId, () => {
+                this.map.getCanvas().style.cursor = 'pointer';
+            });
+
+            this.map.on('mouseleave', layerId, () => {
+                this.map.getCanvas().style.cursor = '';
+            });
+        });
+    }
+}
+
 export const conflictLayers = {
     colors: {
         nato: '#4A90E2',
@@ -12,6 +85,15 @@ export const conflictLayers = {
 
     initializeLayers: (map) => {
         map.on('load', () => {
+            // Añadir fuentes para zonas de conflicto
+            map.addSource('conflict-zones', {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            });
+
             // Añadir la fuente de países
             map.addSource('countries', {
                 type: 'geojson',
@@ -20,13 +102,12 @@ export const conflictLayers = {
 
             // Capa base de países
             map.addLayer({
-                id: 'countries-base',
-                type: 'line',
+                id: 'country-layer',
+                type: 'fill',
                 source: 'countries',
                 paint: {
-                    'line-color': '#4ca1af',
-                    'line-width': 1,
-                    'line-opacity': 0.3
+                    'fill-color': '#263238',
+                    'fill-opacity': 0.5
                 }
             });
 
@@ -41,18 +122,9 @@ export const conflictLayers = {
                 }
             });
 
-            // Añadir fuentes para zonas de conflicto
-            map.addSource('conflict-zones', {
-                type: 'geojson',
-                data: {
-                    type: 'FeatureCollection',
-                    features: []
-                }
-            });
-
             // Configuración de la animación más sutil
             const pulseAnimation = {
-                duration: 3000, // Más lento
+                duration: 3000,
                 animate: true
             };
 
@@ -160,7 +232,8 @@ export const conflictLayers = {
                                 coordinates: zone.coordinates
                             },
                             properties: {
-                                ...zone
+                                ...zone,
+                                type: 'war'
                             }
                         })),
                         ...data.conflict_zones.warm_zones.map(zone => ({
@@ -170,7 +243,8 @@ export const conflictLayers = {
                                 coordinates: zone.coordinates
                             },
                             properties: {
-                                ...zone
+                                ...zone,
+                                type: 'warm'
                             }
                         })),
                         ...data.strategic_points.trade_gates.map(point => ({
@@ -189,6 +263,10 @@ export const conflictLayers = {
                         type: 'FeatureCollection',
                         features: features
                     });
+
+                    // Inicializar y configurar el gestor de popups
+                    const popupManager = new ConflictPopupManager(map);
+                    popupManager.addEventListeners();
                 })
                 .catch(error => console.error('Error loading conflict zones:', error));
 
